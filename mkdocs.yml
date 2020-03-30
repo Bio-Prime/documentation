@@ -1,4 +1,5 @@
 site_name: My Docs
 nav:
     - Home: index.md
+    - Main: 'Specifications of BioPrime.md'
 theme: readthedocs
