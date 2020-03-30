@@ -42,7 +42,7 @@ A Student will have the access to primer data (view only) and history view. He w
 #### Gondola
 
 <video controls="true" autoplay allowfullscreen="true">
-<source src="../gondola.webm" type="video/webm">
+<source src="gondola.webm" type="video/webm">
 </video>
 
 #### Laboratory Technician
