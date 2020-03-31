@@ -35,7 +35,6 @@ A new user is created by the Administrator, who also provides the username (or w
 
 A Guest / General user will have the access to primer data (view only) and will be able to export data.
 
-
 #### Student
 
 A Student will have the access to primer data (view only) and history view. He will be able to export data and modify primer volume.
@@ -61,3 +60,5 @@ An Administrator will have the access to primer data (view only) and history vie
 -------------
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/uzvcztUmMwA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7I0dlovDgZM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
