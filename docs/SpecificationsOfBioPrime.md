@@ -26,7 +26,7 @@ A new user is created by the Administrator, who also provides the username (or w
 
 * Guest / General User
 * Gondola
-* Student
+* Student user
 * Laboratory Technician
 * Researcher / Lab Staff
 * Administrator
