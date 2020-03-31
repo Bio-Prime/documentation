@@ -30,7 +30,7 @@ A new user is created by the Administrator, who also provides the username (or w
 * Researcher / Lab Staff
 * Administrator
 
-#### Guest 
+#### Guest / General user
 
 A Guest / General user will have the access to primer data (view only) and will be able to export data.
 
