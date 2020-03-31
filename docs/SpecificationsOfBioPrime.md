@@ -39,7 +39,7 @@ A Guest / General user will have the access to primer data (view only) and will 
 
 A Student will have the access to primer data (view only) and history view. He will be able to export data and modify primer volume.
 
-#### Gondola
+#### Gondola2
 
 <video controls="true" autoplay allowfullscreen="true">
 <source src="gondola.webm" type="video/webm">
