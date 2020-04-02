@@ -24,7 +24,7 @@ Good documentation constitutes an essential part of the quality assurance system
 
 A new user is created by the Administrator, who also provides the username (or we use an already existing email) and the password. He also sets the user's role and his level of access.  As written before, different users will have different roles in the repository, which controls their information access. The roles are:
 
-* Guest
+* Guest / General user
 * Student
 * Laboratory Technician
 * Researcher / Lab Staff
