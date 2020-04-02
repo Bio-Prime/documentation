@@ -3,7 +3,7 @@
 
 ## A repository for keeping record of the primers in a Biobank
 
-### Introduction
+### First Introduction
 
 The document describes the specifications of the repository BioPrime for computerisation of biobanks for primers. The respository is a system for organised management of informations about the primers, the existing stocks of primers in the laboratory and their location there. It will simplify the ordering and the recording of the consumption of primers. It will also provide a way better trasparency of the analyses of the companies and ease their everyday work.
 
