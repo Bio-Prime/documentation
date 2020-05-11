@@ -10,7 +10,7 @@ The document describes the specifications of the repository BioPrime for compute
 Good documentation constitutes an essential part of the quality assurance system and is key to operating in compliance with GMP requirements, so with this document we provide you a description of the functions of the repository, instructions and procedures, written in an instructional form. The document contains:
 
 * review of the repository with a use – case diagram
-* description of user access control
+* detailed description of user access control
 * functional requirements of individual parts of the repository
 * user view, that represents the final appearance of the repository
 
@@ -48,7 +48,20 @@ A Researcher / Lab Staff will have access to primer data (view only) and history
 
 #### Administrator
 
-The Administrator will have access to primer data (view only) and history view. They will be able to import and also export data, to add or remove primers, modify primer data, volume and state (formulation) and order new primers / reorder primers. They will see the users overview and be able to add or remove users, modify  access level of users and to modify their roles.
+The Administrator will have access to primer data (view only) and history view. They will be able to import and also export data, to add or remove primers, modify primer data, volume and state (formulation) and order new primers / reorder primers. They will see the users overview and be able to add or remove users, modify  access level of users and modify their roles.
+
+### System Functionality
+
+We divided the system functionality into specific sections:
+
+- home page
+- access to primer data library
+- search and sorting primer data
+- ordering new primers
+- adding new primers
+- manipulating primer data
+- analysis
+
 
 | Urban | Urban |
 |-------|-------|
