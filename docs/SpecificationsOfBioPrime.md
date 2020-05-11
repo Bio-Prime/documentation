@@ -12,7 +12,7 @@ Good documentation constitutes an essential part of the quality assurance system
 * review of the repository with a use – case diagram
 * it describes the user access control
 * functional requirements of individual parts of the repository
-* zaslonske maske (prevod v angleščini) , that represent the final appearance of the repository
+* user view, that represents the final appearance of the repository
 
 ### Review of the repository
 
