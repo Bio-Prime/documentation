@@ -54,7 +54,7 @@ A Researcher / Lab Staff will have the access to primer data (view only) and his
 
 #### Administrator
 
-An Administrator will have the access to primer data (view only) and history view. He will be able to import and also export data, to add or remove primers, modify primer data, volume and state (formulation) and order primers. He will have the users overview and will be able to add or remove users, to modify users access level and to modify users roles.
+The Administrator will have access to primer data (view only) and history view. He will be able to import and also export data, to add or remove primers, modify primer data, volume and state (formulation) and order primers. He will have the users overview and will be able to add or remove users, to modify users access level and to modify users roles.
 
 | Urban | Urban |
 |-------|-------|
