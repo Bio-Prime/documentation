@@ -10,7 +10,7 @@ The document describes the specifications of the repository BioPrime for compute
 Good documentation constitutes an essential part of the quality assurance system and is key to operating in compliance with GMP requirements, so with this document we provide you a description of the functions of the repository, instructions and procedures, written in an instructional form. The document contains:
 
 * review of the repository with a use – case diagram
-* it describes the user access control
+* description of user access control
 * functional requirements of individual parts of the repository
 * user view, that represents the final appearance of the repository
 
@@ -22,7 +22,7 @@ Good documentation constitutes an essential part of the quality assurance system
 
 ### Users access
 
-A new user is created by the Administrator, who also provides the username (or we use an already existing email) and the password. He also sets the user's role and his level of access.  As written before, different users will have different roles in the repository, which controls their information access. The roles are:
+A new user is created by the Administrator, who also provides the username (or new users log in with an already existing email) and password. He also sets the user's role and their level of access.  As written before, different users will have different roles in the repository, which controls their information access. The roles are:
 
 * Guest / General user
 * Student
@@ -36,19 +36,19 @@ A Guest / General user will have the access to primer data (view only) and will 
 
 #### Student
 
-A Student will have the access to primer data (view only) and history view. He will be able to export data and modify primer volume.
+A Student will have access to primer data (view only) and history view. They will be able to export data and modify primer volume.
 
 #### Laboratory Technician
 
-A Laboratory Technician will have the access to primer data (view only) and history view. He will be able to import data, but not export and can also order primers. He can modify primer volume and  primer state (formulation).
+A Laboratory Technician will have access to primer data (view only) and history view. They will be able to import  (but not export), order new / reorder primers and modify primer volume and state (formulation).
 
 #### Researcher / Lab Staff
 
-A Researcher / Lab Staff will have the access to primer data (view only) and history view. He will be able to import and also export data, to add or remove primers, modify primer data, volume and state (formulation) and order primers.
+A Researcher / Lab Staff will have access to primer data (view only) and history view. They will be able to import and also export data, to add or remove primers, modify primer data, volume and state (formulation) and order new / reorder primers.
 
 #### Administrator
 
-The Administrator will have access to primer data (view only) and history view. He will be able to import and also export data, to add or remove primers, modify primer data, volume and state (formulation) and order primers. He will have the users overview and will be able to add or remove users, to modify users access level and to modify users roles.
+The Administrator will have access to primer data (view only) and history view. They will be able to import and also export data, to add or remove primers, modify primer data, volume and state (formulation) and order new primers / reorder primers. They will see the users overview and be able to add or remove users, modify  access level of users and to modify their roles.
 
 | Urban | Urban |
 |-------|-------|
