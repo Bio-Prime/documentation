@@ -38,12 +38,6 @@ A Guest / General user will have the access to primer data (view only) and will 
 
 A Student will have the access to primer data (view only) and history view. He will be able to export data and modify primer volume.
 
-#### Gondola2
-
-<video controls="true" autoplay allowfullscreen="true">
-<source src="gondola.webm" type="video/webm">
-</video>
-
 #### Laboratory Technician
 
 A Laboratory Technician will have the access to primer data (view only) and history view. He will be able to import data, but not export and can also order primers. He can modify primer volume and  primer state (formulation).
@@ -61,7 +55,3 @@ The Administrator will have access to primer data (view only) and history view. 
 | test  | test  |
 
 -------------
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/uzvcztUmMwA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/7I0dlovDgZM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
