@@ -3,7 +3,7 @@
 
 ## A repository for keeping record of the primers in a Biobank
 
-### Introduction
+### First Introduction
 
 The document describes the specifications of the repository BioPrime for computerisation of biobanks for primers. The respository is a system for organised management of informations about the primers, the existing stocks of primers in the laboratory and their location there. It will simplify the ordering and the recording of the consumption of primers. It will also provide a way better trasparency of the analyses of the companies and ease their everyday work.
 
@@ -24,7 +24,7 @@ Good documentation constitutes an essential part of the quality assurance system
 
 A new user is created by the Administrator, who also provides the username (or we use an already existing email) and the password. He also sets the user's role and his level of access.  As written before, different users will have different roles in the repository, which controls their information access. The roles are:
 
-* Guest / General User
+* Guest / General user
 * Student
 * Laboratory Technician
 * Researcher / Lab Staff
