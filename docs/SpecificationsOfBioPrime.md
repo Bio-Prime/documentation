@@ -80,6 +80,19 @@ If the password has been forgotten or the e-mail has been changed, the Administr
 
 New primers are added with a click on the "Add" button on the top right. The system offers you to add one or two primers at the same time, or if you simply want to upload a document you can click CSV and upload your file on to the database.
 
+| Obligatory Data | Optional Data |
+|-------|-------|
+| Name of primer  | Length  |
+| Sequence | Tm |
+| Optimal T of annealing  | GC (%)  |
+| Organism  | Human genome build |
+| Gene  | Length of amplicon  |
+| NCBI gene ID |   |
+| Position in the reference  |   |
+| Type of primer  |   |
+| 5' modification |   |
+| 3' modification  |  |
+
 ![add_primer1](./add_primer1.JPG)
 
 ![add_primer2](./add_primer2.JPG)
