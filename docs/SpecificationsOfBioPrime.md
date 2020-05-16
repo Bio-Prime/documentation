@@ -54,13 +54,23 @@ The Administrator will have access to primer data (view only) and history view. 
 
 We divided the system functionality into specific sections:
 
-* home page
+* login page
 * access to primer data library
 * search and sorting primer data
 * ordering new primers
 * adding new primers
 * changing primer data
 * analysis
+
+### Login Page
+
+When you access the BioPrime website, it first takes you to the login options. All repository users need to log in before viewing or costumizing data.
+
+![login_screen](./login_screen.jpg)
+
+New users and their assigned roles are created by the Administrator. Users are then notified by e-mail about their access grant. Personal or work e-mail can be used as the username and the password should be set by the users themselves.
+
+If the password has been forgotten or the e-mail has been changed, the Administrator can permit the option of creating a new password, change the role of the user or delete them and add them with a new e-mail.
 
 ![database-diagram](./database-diagram.png)
 
