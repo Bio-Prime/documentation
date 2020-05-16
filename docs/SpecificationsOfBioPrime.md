@@ -86,7 +86,6 @@ New primers are added with a click on the "Add" button on the top right. The sys
 
 ![add_primer3](./add_primer3.JPG)
 
-
 ### Costumizing Primer Data
 
 ### Ordering New Primers
