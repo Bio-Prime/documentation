@@ -54,14 +54,15 @@ The Administrator will have access to primer data (view only) and history view. 
 
 We divided the system functionality into specific sections:
 
-- home page
-- access to primer data library
-- search and sorting primer data
-- ordering new primers
-- adding new primers
-- manipulating primer data
-- analysis
+* home page
+* access to primer data library
+* search and sorting primer data
+* ordering new primers
+* adding new primers
+* changing primer data
+* analysis
 
+![database-diagram](./database-diagram.png)
 
 | Urban | Urban |
 |-------|-------|
