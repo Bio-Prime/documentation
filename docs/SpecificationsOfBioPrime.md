@@ -78,6 +78,15 @@ If the password has been forgotten or the e-mail has been changed, the Administr
 
 ### Adding New Primers
 
+New primers are added with a click on the "Add" button on the top right. The system offers you to add one or two primers at the same time, or if you simply want to upload a document you can click CSV and upload your file on to the database.
+
+![add_primer1](./add_primer1.JPG)
+
+![add_primer2](./add_primer2.JPG)
+
+![add_primer3](./add_primer3.JPG)
+
+
 ### Costumizing Primer Data
 
 ### Ordering New Primers
