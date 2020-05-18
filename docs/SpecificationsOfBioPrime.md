@@ -83,15 +83,17 @@ New primers are added with a click on the "Add" button on the top right. The sys
 | Obligatory Data | Optional Data |
 |-------|-------|
 | Name of primer  | Length  |
-| Sequence | Tm |
-| Optimal T of annealing  | GC (%)  |
-| Organism  | Human genome build |
-| Gene  | Length of amplicon  |
-| NCBI gene ID |   |
-| Position in the reference  |   |
-| Type of primer  |   |
-| 5' modification |   |
+| Sequence | Tm (℃)|
+| Organism  | Optimal T of annealing |
+| Gene  | GC (%)  |
+| NCBI gene ID | Human genome build  |
+| Position in the reference  | Length of amplicon  |
+| Purification method  | Amount available  |
+| Type of primer  | Did you check specificity in blast?  |
+| 5' modification | Designer  |
 | 3' modification  |  |
+| Location  | User |
+|  | Project |
 
 ![add_primer1](./add_primer1.JPG)
 
