@@ -86,7 +86,9 @@ The Administrator also has access to the "Manage Users" section.
 
 Dashboard view shows general analysis data on top of the page, including occupancy of the refrigerators and total number of primer.
 Primers are presented in a list and automatically sorted by their Generated name in an ascending order. The order can be modified based on any trait, described in detail in the following chapter.
-Only the desired amount of primer data is shown, which can be by checking off boxes in the "View Columns" section in the top right corner.
+Only the desired amount of primer data is shown, which can be by checking off boxes in the "View Columns" section in the top right corner. User can also check off "select all" to see all the data traits at the same time.
+
+Details of each primer can be viewed by clicking the box on the left of each primer then choosing "Open Data" on the top right. This way primers can also be modified or deleted.
 
 ### Searching and Sorting Primer Data
 
@@ -163,6 +165,7 @@ When adding a TaqProbe, extra options for putting in data open up:
 A document can also be added to the primer data, for example a sheet of information provided by the manufacturer.
 
 ### Costumizing Primer Data
+
 
 ### Ordering New Primers
 
