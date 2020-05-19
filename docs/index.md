@@ -82,18 +82,25 @@ New primers are added with a click on the "Add" button on the top right. The sys
 
 | Obligatory Data | Optional Data |
 |-------|-------|
-| Name of primer  | Length  |
-| Sequence | Tm (℃)|
-| Organism  | Optimal T of annealing |
-| Gene  | GC (%)  |
-| NCBI gene ID | Human genome build  |
-| Position in the reference  | Length of amplicon  |
-| Purification method  | Amount available  |
-| Type of primer  | Did you check specificity in blast?  |
-| 5' modification | Designer  |
-| 3' modification  |  |
-| Location  | User |
+| Name of primer  | NCBI gene ID  |
+| Sequence | Human genome build|
+| Organism  | Length |
+| Gene  | Tm (℃)  |
+| Position in the reference | Optimal T of annealing (℃) |
+| Formulation | GC (%)  |
+| Purification method | Storing T (℃)   |
+| Type of primer | Sonda Sequence (for TaqProbe)   |
+| Application  | Length of amplicon  |
+| 5' modification | Amount available  |
+| 3' modification  | Did you check specificity in blast? |
+| Location  | Designer |
+|  | User |
 |  | Project |
+|  | Supplier |
+|  | Manufacturer |
+|  | Date |
+|  | Comment |
+|  | Analysis |
 
 ![add_primer1](./add_primer1.JPG)
 
