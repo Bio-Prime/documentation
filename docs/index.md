@@ -108,6 +108,27 @@ New primers are added with a click on the "Add" button on the top right. The sys
 
 ![add_primer3](./add_primer3.JPG)
 
+When adding a new primer, user can choose between adding a single primer, a pair (forward and reverse). When putting in data for a pair of primers common features are put in first and then specific features for each primer, which are:
+
+* Name of primer (obligatory)
+* Position in the reference (obligatory)
+* Length
+* Tm (℃)
+* Optimal T of annealing (℃)
+* GC %
+* Storing T (℃)
+* Sequence
+
+When adding a TaqProbe primer, extra options open up:
+
+* Assay ID
+* Size
+* Sonda Sequence
+* Quencher
+* Dye
+
+A document can also be added to the primer data, for example sheet of information provided by the manufacturer.
+
 ### Costumizing Primer Data
 
 ### Ordering New Primers
@@ -116,8 +137,5 @@ New primers are added with a click on the "Add" button on the top right. The sys
 
 ![database-diagram](./database-diagram.png)
 
-| Urban | Urban |
-|-------|-------|
-| test  | test  |
 
 -------------
