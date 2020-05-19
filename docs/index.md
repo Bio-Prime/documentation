@@ -74,11 +74,38 @@ If the password has been forgotten or the e-mail has been changed, the Administr
 
 ### Access to Primer Data Library
 
+After logging in, the user is presented with the main page of the program.
+
+Icons on the left show:
+
+* Dashboard, which is the main page showing primer data
+* Orders, where recent orders and "pending orders" with future primer orders can be viewed
+* History, which shows all the changes made by the users (view limited only to specific users)
+
+The Administrator also has access to the "Manage Users" section.
+
+Dashboard view shows general analysis data on top of the page, including occupancy of the refrigerators and total number of primer.
+Primers are presented in a list and automatically sorted by their Generated name in an ascending order. The order can be modified based on any trait, described in detail in the following chapter.
+Only the desired amount of primer data is shown, which can be by checking off boxes in the "View Columns" section in the top right corner.
+
 ### Searching and Sorting Primer Data
+
+Search options include normal and advanced search options.
+When using normal search, the user can search solely by the gene.
+Advanced search can be done by clicking on the "Filter Table" button on the top right, search under these traits is available:
+
+* ID of primer
+* Generated name of primer
+* Organism
+* User
+* Type of primer
+* Project
+
+Primers can be sorted based on certain traits by clicking on the "View columns" button on the top right and checking off the boxes with desired traits, then clicking the name of the trait on top of each column to sort based on ascending order and double clicking for descending order.
 
 ### Adding New Primers
 
-New primers are added with a click on the "Add" button on the top right. The system offers you to add one or two primers at the same time, or if you simply want to upload a document you can click CSV and upload your file on to the database.
+New primers are added with a click on the "Add" button on the top right. The system offers you to add one or two primers at the same time. If you simply want to upload a document you can click on the "CSV" option and upload your file on to the database.
 
 | Obligatory Data | Optional Data |
 |-------|-------|
@@ -108,7 +135,7 @@ New primers are added with a click on the "Add" button on the top right. The sys
 
 ![add_primer3](./add_primer3.JPG)
 
-When adding a new primer, user can choose between adding a single primer, a pair (forward and reverse). When putting in data for a pair of primers common features are put in first and then specific features for each primer, which are:
+When adding a new primer, user can choose between adding a single primer or a pair (forward and reverse). When putting in data for a pair of primers, common features are put in first, specific features for each primer are:
 
 * Name of primer (obligatory)
 * Position in the reference (obligatory)
@@ -117,9 +144,13 @@ When adding a new primer, user can choose between adding a single primer, a pair
 * Optimal T of annealing (℃)
 * GC %
 * Storing T (℃)
-* Sequence
+* Sequence (obligatory)
+* 5' modification (obligatory)
+* 3' modification (obligatory)
+* Location (obligatory)
+* Comment
 
-When adding a TaqProbe primer, extra options open up:
+When adding a TaqProbe, extra options for putting in data open up:
 
 * Assay ID
 * Size
@@ -127,7 +158,9 @@ When adding a TaqProbe primer, extra options open up:
 * Quencher
 * Dye
 
-A document can also be added to the primer data, for example sheet of information provided by the manufacturer.
+"Sequence" is also not among obligatory data for TaqProbes.
+
+A document can also be added to the primer data, for example a sheet of information provided by the manufacturer.
 
 ### Costumizing Primer Data
 
