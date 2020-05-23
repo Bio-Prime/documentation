@@ -1,5 +1,6 @@
 site_name: BioPrime docs
 nav:
     - Home: 'index.md'
+    - Adding new orders: 'new_order.md'
 theme: readthedocs
 use_directory_urls: false

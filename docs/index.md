@@ -11,7 +11,7 @@ Good documentation constitutes an essential part of the quality assurance system
 
 * review of the repository with a use – case diagram
 * detailed description of user access control
-* functional requirements of individual parts of the repository
+* functional requirements of individual parts of the repository (system functionality)
 * user view, that represents the final appearance of the repository
 
 ### Review of the repository
@@ -79,8 +79,8 @@ After logging in, the user is presented with the main page of the program.
 Icons on the left show:
 
 * Dashboard, which is the main page showing primer data
-* Orders, where recent orders and "pending orders" with future primer orders can be viewed
-* History, which shows all the changes made by the users (view limited only to specific users)
+* Orders, where recent and pending orders can be viewed
+* History, which shows a timeline of all changes made by the users (view limited only to specific users)
 
 The Administrator also has access to the "Manage Users" section.
 
@@ -88,7 +88,7 @@ Dashboard view shows general analysis data on top of the page, including occupan
 Primers are presented in a list and automatically sorted by their Generated name in an ascending order. The order can be modified based on any trait, described in detail in the following chapter.
 Only the desired amount of primer data is shown, which can be by checking off boxes in the "View Columns" section in the top right corner. User can also check off "select all" to see all the data traits at the same time.
 
-Details of each primer can be viewed by clicking the box on the left of each primer then choosing "Open Data" on the top right. This way primers can also be modified or deleted.
+Details of each primer can be viewed by clicking the box on the left of each primer then choosing "Open Data" on the top right. This way primers can also be modified or deleted, if your assigned role allows you that option.
 
 ### Searching and Sorting Primer Data
 
@@ -166,8 +166,13 @@ A document can also be added to the primer data, for example a sheet of informat
 
 ### Costumizing Primer Data
 
-
 ### Ordering New Primers
+
+If less than 10 µL of primer are available a new order should be made immediately.
+
+After completing an order, the date of order appears in the data of a specific primer.
+Existing orders can be viewed in the "Orders" page, accessible on the top left of the site. Under it is a "Pending orders" section, where the user can view all the primers pending to be ordered and when enough material from the same supplier is under pending, everything can be ordered in a batch.
+Before adding a new order, this page should If the order is the first one it can be added as a "primer for the next order" under the pending orders, this way it waits for other users to add their wishes and all the primers can be ordered in a batch.
 
 ### Analysis
 
