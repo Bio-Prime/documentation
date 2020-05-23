@@ -50,7 +50,7 @@ A Researcher / Lab Staff will have access to primer data (view only) and history
 
 The Administrator will have access to primer data (view only) and history view. They will be able to import and also export data, to add or remove primers, modify primer data, volume and state (formulation) and order new primers / reorder primers. They will see the users overview and be able to add or remove users, modify  access level of users and modify their roles.
 
-### System Functionality
+## System Functionality
 
 We divided the system functionality into specific sections:
 
@@ -62,7 +62,7 @@ We divided the system functionality into specific sections:
 * Ordering New Primers
 * Analysis
 
-### Login Page
+## Login Page
 
 When you access the BioPrime website, it first takes you to the login options. All repository users need to log in before viewing or costumizing data.
 
@@ -90,7 +90,7 @@ Only the desired amount of primer data is shown, which can be by checking off bo
 
 Details of each primer can be viewed by clicking the box on the left of each primer then choosing "Open Data" on the top right. This way primers can also be modified or deleted, if your assigned role allows you that option.
 
-### Searching and Sorting Primer Data
+## Searching and Sorting Primer Data
 
 Search options include normal and advanced search options.
 When using normal search, the user can search solely by the gene.
@@ -105,7 +105,7 @@ Advanced search can be done by clicking on the "Filter Table" button on the top 
 
 Primers can be sorted based on certain traits by clicking on the "View columns" button on the top right and checking off the boxes with desired traits, then clicking the name of the trait on top of each column to sort based on ascending order and double clicking for descending order.
 
-### Adding New Primers
+## Adding New Primers
 
 New primers are added with a click on the "Add" button on the top right. The system offers you to add one or two primers at the same time. If you simply want to upload a document you can click on the "CSV" option and upload your file on to the database.
 
@@ -164,9 +164,9 @@ When adding a TaqProbe, extra options for putting in data open up:
 
 A document can also be added to the primer data, for example a sheet of information provided by the manufacturer.
 
-### Costumizing Primer Data
+## Costumizing Primer Data
 
-### Ordering New Primers
+## Ordering New Primers
 
 If less than 10 µL of primer are available a new order should be made immediately.
 
