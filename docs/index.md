@@ -178,5 +178,4 @@ Before adding a new order, this page should If the order is the first one it can
 
 ![database-diagram](./database-diagram.png)
 
-
 -------------
