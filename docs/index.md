@@ -119,7 +119,7 @@ Primers can be sorted based on certain traits by clicking on the "View columns" 
 
 New primers are added with a click on the "Add" button on the top right. The system offers you to add one or two primers at the same time. If you simply want to upload a document you can click on the "CSV" option and upload your file on to the database.
 
-| Obligatory Data | Optional Data |
+| Required Data | Optional Data |
 |-------|-------|
 | Name of primer  | NCBI gene ID  |
 | Sequence | Human genome build|
@@ -176,20 +176,24 @@ A document can also be added to the primer data, for example a sheet of informat
 
 ## Customizing Primer Data
 
-After opening the primer details, you can edit the data by clicking on the editor icon.
+After accessing primer data by opening the primer details, the user can edit the data by clicking the editor icon.
 
 ![access2](./access2.png)
 
-This allows you to add a comment, manage the primer volume or formulation or correct any possible mistakes that were made when adding a new primer into the repository. The amount of editing that is allowed is based on the users' assigned role.
+This allows the user to add a comment, manage the primer volume and formulation or correct any possible mistakes that were made while adding a new primer into the repository. The amount of editing allowed is based on the the user's assigned role.
 
 ## Ordering New Primers
 
-If less than 10 µL of primer are available a new order should be made immediately.
+If the user wants to make a new orders, they should access the Orders. It should be noted that if less than 10 µL of a primer are available, a new order should be made immediately.
+
+![orders](./orders.png)
+
+To order a new primer, the user should click on the "+" sign on the top right, and choose between ordering one or two primers.The required fields should be filled in.
 
 After completing an order, the date of order appears in the data of a specific primer.
 Existing orders can be viewed in the "Orders" page, accessible on the top left of the site. Under it is a "Wanted Oligonucleotide Primers" section, where the user can view all the primers pending to be ordered and when enough material from the same supplier is under "wanted", everything can be ordered in a batch.
 
-![orders](./orders.png)
+
 
 Before adding a new order, this page should be checked so the orders don't overlap. If the primer has already been order this is also shown under "primer details" (described in the "Access to primer data library" section).
 If the order is the first one from the batch, it can be added as a pending order under the "Wanted Oligonucleotide Primers", this allows other users to add their wishes and all the primers can be ordered in a batch. This is done by selecting a primer and then clicking "Move to ordered primers" after ordering.
