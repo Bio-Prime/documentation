@@ -76,11 +76,15 @@ If the password has been forgotten or the e-mail has been changed, the Administr
 
 After logging in, the user is presented with the main page of the program.
 
+![homepage1](./homepage1.png)
+
 Icons on the left show:
 
 * Dashboard, which is the main page showing primer data
 * Orders, where recent and pending orders can be viewed
 * History, which shows a timeline of all changes made by the users (view limited only to specific users)
+
+![menu1](./menu1.png)
 
 The Administrator also has access to the "Manage Users" section.
 
