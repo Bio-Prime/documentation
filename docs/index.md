@@ -188,12 +188,12 @@ If the user wants to make a new orders, they should access the Orders. It should
 
 ![orders](./orders.png)
 
-To order a new primer, the user should click on the "+" sign on the top right, and choose between ordering one or two primers.The required fields should be filled in.
+To order a new primer, the user should click on the "+" sign on the top right, and choose between ordering one or two primers. The required fields should be filled in.
 
-After completing an order, the date of order appears in the data of a specific primer.
+![order3](./order3.png)
+
+After completing an order, the date of order appears in the primer details to notify other users when searching for that primer.
 Existing orders can be viewed in the "Orders" page, accessible on the top left of the site. Under it is a "Wanted Oligonucleotide Primers" section, where the user can view all the primers pending to be ordered and when enough material from the same supplier is under "wanted", everything can be ordered in a batch.
-
-
 
 Before adding a new order, this page should be checked so the orders don't overlap. If the primer has already been order this is also shown under "primer details" (described in the "Access to primer data library" section).
 If the order is the first one from the batch, it can be added as a pending order under the "Wanted Oligonucleotide Primers", this allows other users to add their wishes and all the primers can be ordered in a batch. This is done by selecting a primer and then clicking "Move to ordered primers" after ordering.
