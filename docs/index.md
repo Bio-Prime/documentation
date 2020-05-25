@@ -72,7 +72,7 @@ New users and their assigned roles are created by the Administrator. Users are t
 
 If the password has been forgotten or the e-mail has been changed, the Administrator can permit the option of creating a new password, change the role of the user or delete them and add them with a new e-mail.
 
-### Access to Primer Data Library
+## Access to Primer Data Library
 
 After logging in, the user is presented with the main page of the program.
 
@@ -84,15 +84,19 @@ Icons on the left show:
 * Orders, where recent and pending orders can be viewed
 * History, which shows a timeline of all changes made by the users (view limited only to specific users)
 
-![menu1](./menu1.png)
-
 The Administrator also has access to the "Manage Users" section.
 
-Dashboard view shows general analysis data on top of the page, including occupancy of the refrigerators and total number of primer.
-Primers are presented in a list and automatically sorted by their Generated name in an ascending order. The order can be modified based on any trait, described in detail in the following chapter.
-Only the desired amount of primer data is shown, which can be by checking off boxes in the "View Columns" section in the top right corner. User can also check off "select all" to see all the data traits at the same time.
+![menu1](./menu1.png)
 
-Details of each primer can be viewed by clicking the box on the left of each primer then choosing "Open Data" on the top right. This way primers can also be modified or deleted, if your assigned role allows you that option.
+Dashboard view shows general analysis data on top of the page, including the occupancy of refrigerators and the total number of primer.
+Primers are presented in a list and automatically sorted by their Generated name in an ascending order. The order can be modified based on any trait (such as Sequence, Freezer, User etc.), described in detail in the following chapter.
+Only the desired amount of primer data is shown, which can be by checking off boxes in the "View Columns" section in the top right corner. User can also use the option of "select all" to see all the data at the same time.
+
+Details of each primer can be viewed by clicking the box on the left of each primer then choosing "Open Data" on the top right.
+
+![access1](./access1.png)
+
+This way primers can also be modified or deleted, if your assigned role allows you that option.
 
 ## Searching and Sorting Primer Data
 
