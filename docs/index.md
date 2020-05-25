@@ -58,7 +58,7 @@ We divided the system functionality into specific sections:
 * Access to Primer Data Library
 * Searching and Sorting Primer Data
 * Adding New Primers
-* Costumizing Primer Data
+* Customizing Primer Data
 * Ordering New Primers
 * Analysis
 
@@ -174,7 +174,7 @@ When adding a TaqProbe, extra options for putting in data open up:
 
 A document can also be added to the primer data, for example a sheet of information provided by the manufacturer.
 
-## Costumizing Primer Data
+## Customizing Primer Data
 
 After opening the primer details, you can edit the data by clicking on the editor icon.
 
