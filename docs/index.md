@@ -176,11 +176,11 @@ A document can also be added to the primer data, for example a sheet of informat
 
 ## Costumizing Primer Data
 
-After opening the primer details, you can edit the data by clicking on the editor icon. 
+After opening the primer details, you can edit the data by clicking on the editor icon.
 
 ![access2](./access2.png)
 
-This allows you to add a comment, manage the primer volume, 
+This allows you to add a comment, manage the primer volume or formulation or correct any possible mistakes that were made when adding a new primer into the repository. The amount of editing that is allowed is based on the users' assigned role.
 
 ## Ordering New Primers
 
