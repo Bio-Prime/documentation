@@ -76,7 +76,7 @@ If the password has been forgotten or the e-mail has been changed, the Administr
 
 After logging in, the user is presented with the main page of the program.
 
-![homepage1](./homepage1.png)
+![dashboard](./dashboard.png)
 
 Icons on the left show:
 
@@ -84,9 +84,11 @@ Icons on the left show:
 * Orders, where recent and pending orders can be viewed
 * History, which shows a timeline of all changes made by the users (view limited only to specific users)
 
+![menu1](./menu1.png)
+
 The Administrator also has access to the "Manage Users" section.
 
-![menu1](./menu1.png)
+![admin](./admin.png)
 
 Dashboard view shows general analysis data on top of the page, including the occupancy of refrigerators and the total number of primer.
 Primers are presented in a list and automatically sorted by their Generated name in an ascending order. The order can be modified based on any trait (such as Sequence, Freezer, User etc.), described in detail in the following chapter.
@@ -96,7 +98,7 @@ Details of each primer can be viewed by clicking the box on the left of each pri
 
 ![access1](./access1.png)
 
-This way primers can also be modified or deleted, if your assigned role allows you that option.
+This way primers can also be modified or deleted, if your assigned role allows you that option. This is described in the Costumizing primer data section.
 
 ## Searching and Sorting Primer Data
 
@@ -174,13 +176,25 @@ A document can also be added to the primer data, for example a sheet of informat
 
 ## Costumizing Primer Data
 
+After opening the primer details, you can edit the data by clicking on the editor icon. 
+
+![access2](./access2.png)
+
+This allows you to add a comment, manage the primer volume, 
+
 ## Ordering New Primers
 
 If less than 10 µL of primer are available a new order should be made immediately.
 
 After completing an order, the date of order appears in the data of a specific primer.
-Existing orders can be viewed in the "Orders" page, accessible on the top left of the site. Under it is a "Pending orders" section, where the user can view all the primers pending to be ordered and when enough material from the same supplier is under pending, everything can be ordered in a batch.
-Before adding a new order, this page should If the order is the first one it can be added as a "primer for the next order" under the pending orders, this way it waits for other users to add their wishes and all the primers can be ordered in a batch.
+Existing orders can be viewed in the "Orders" page, accessible on the top left of the site. Under it is a "Wanted Oligonucleotide Primers" section, where the user can view all the primers pending to be ordered and when enough material from the same supplier is under "wanted", everything can be ordered in a batch.
+
+![orders](./orders.png)
+
+Before adding a new order, this page should be checked so the orders don't overlap. If the primer has already been order this is also shown under "primer details" (described in the "Access to primer data library" section).
+If the order is the first one from the batch, it can be added as a pending order under the "Wanted Oligonucleotide Primers", this allows other users to add their wishes and all the primers can be ordered in a batch. This is done by selecting a primer and then clicking "Move to ordered primers" after ordering.
+
+![orders2](./orders2.png)
 
 ### Analysis
 
