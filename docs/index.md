@@ -64,7 +64,7 @@ We divided the system functionality into specific sections:
 
 ## Login Page
 
-When you access the BioPrime website, it first takes you to the login options. All repository users need to log in before viewing or costumizing data.
+When you access the BioPrime website, it first takes you to the login options. All repository users need to log in before viewing or customizing data.
 
 ![login_screen](./login_screen.JPG)
 
@@ -98,13 +98,20 @@ Details of each primer can be viewed by clicking the box on the left of each pri
 
 ![access1](./access1.png)
 
-This way primers can also be modified or deleted, if your assigned role allows you that option. This is described in the Costumizing primer data section.
+This way primers can also be modified or deleted, if your assigned role allows you that option. This is described in the Customizing primer data section.
 
 ## Searching and Sorting Primer Data
 
 Search options include normal and advanced search options.
-When using normal search, the user can search solely by the gene.
-Advanced search can be done by clicking on the "Filter Table" button on the top right, search under these traits is available:
+To access the search bar select the search icon and the bar will appear on the left. When using normal search, the user can search solely based on the gene.
+
+![search1](./search1.png)
+
+Advanced search can be accessed by clicking on the "Filter Table" button on the top right,
+
+![sort1](./sort1.png)
+
+Search under these traits is available:
 
 * ID of primer
 * Generated name of primer
@@ -112,8 +119,19 @@ Advanced search can be done by clicking on the "Filter Table" button on the top 
 * User
 * Type of primer
 * Project
+* Supplier
+* Manufacturer
+* Location (Freezer)
+
+![filter1](./filter1.png)
 
 Primers can be sorted based on certain traits by clicking on the "View columns" button on the top right and checking off the boxes with desired traits, then clicking the name of the trait on top of each column to sort based on ascending order and double clicking for descending order.
+
+![sort2](./sort2.png)
+
+To export all primer data from the database click on the download icon. To print everything click on the printer icon.
+
+![export1](./export1.png)
 
 ## Adding New Primers
 
@@ -133,8 +151,7 @@ New primers are added with a click on the "Add" button on the top right. The sys
 | 5' modification | Amount available  |
 | 3' modification  | Did you check specificity in blast? |
 | Location  | Designer |
-|  | User |
-|  | Project |
+| Project | User |
 |  | Supplier |
 |  | Manufacturer |
 |  | Date |
@@ -172,19 +189,19 @@ When adding a TaqProbe, extra options for putting in data open up:
 
 "Sequence" is also not among obligatory data for TaqProbes.
 
-A document can also be added to the primer data, for example a sheet of information provided by the manufacturer.
+A document can also be added as an appendix to the primer data (i.e. the information sheet provided by the manufacturer).
 
 ## Customizing Primer Data
 
-After accessing primer data by opening the primer details, the user can edit the data by clicking the editor icon.
+After accessing primer data by opening the primer details (described in the "Access to primer data library" section), the user can edit the data by clicking on the editor icon.
 
 ![access2](./access2.png)
 
-This allows the user to add a comment, manage the primer volume and formulation or correct any possible mistakes that were made while adding a new primer into the repository. The amount of editing allowed is based on the the user's assigned role.
+This allows the user to add a comment, manage the primer volume and formulation or correct any possible mistakes that were made while adding a new primer into the repository. The level of allowed editing is based on the the user's assigned role.
 
 ## Ordering New Primers
 
-If the user wants to make a new orders, they should access the Orders. It should be noted that if less than 10 µL of a primer are available, a new order should be made immediately.
+If the user wants to make a new orders, they should access Orders. It should be noted that if less than 10 µL of a primer are available, a new order should be made immediately.
 
 ![orders](./orders.png)
 
@@ -200,7 +217,7 @@ If the order is the first one from the batch, it can be added as a pending order
 
 ![orders2](./orders2.png)
 
-### Analysis
+## Analysis
 
 ![database-diagram](./database-diagram.png)
 
