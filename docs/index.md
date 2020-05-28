@@ -64,23 +64,23 @@ We divided the system functionality into specific sections:
 
 ## Login Page
 
-When you access the BioPrime website, it first takes you to the login options. All repository users need to log in before viewing or customizing data.
+When you access the BioPrime website, the page first offers you the login options. All repository users need to log in before viewing or customizing data.
 
 ![login_screen](./login_screen.JPG)
 
 New users and their assigned roles are created by the Administrator. Users are then notified by e-mail about their access grant. Personal or work e-mail can be used as the username and the password should be set by the users themselves.
 
-If the password has been forgotten or the e-mail has been changed, the Administrator can permit the option of creating a new password, change the role of the user or delete them and add them with a new e-mail.
+If the password has been forgotten or the e-mail has been changed, the Administrator can permit the option of creating a new password, change the role of the user or delete and add them with a new e-mail.
 
 ## Access to Primer Data Library
 
-After logging in, the user is presented with the main page of the program.
+After logging in, user is presented with the Dashboard, the main page of the program.
 
 ![dashboard](./dashboard.png)
 
-Icons on the left show:
+Icons on the left show (in descending order):
 
-* Dashboard, which is the main page showing primer data
+* Dashboard, the main page showing primer data
 * Orders, where recent and pending orders can be viewed
 * History, which shows a timeline of all changes made by the users (view limited only to specific users)
 
@@ -90,9 +90,11 @@ The Administrator also has access to the "Manage Users" section.
 
 ![admin](./admin.png)
 
-Dashboard view shows general analysis data on top of the page, including the occupancy of refrigerators and the total number of primer.
-Primers are presented in a list and automatically sorted by their Generated name in an ascending order. The order can be modified based on any trait (such as Sequence, Freezer, User etc.), described in detail in the following chapter.
-Only the desired amount of primer data is shown, which can be by checking off boxes in the "View Columns" section in the top right corner. User can also use the option of "select all" to see all the data at the same time.
+Dashboard view shows general analysis data on top of the page, including the occupancy of refrigerators and the total number of primers.
+
+Primers are presented in a list and are automatically sorted by their Generated name in a descending order. The order can be modified based on any trait (such as Sequence, Freezer, User etc.), described in detail in the Customizing primer data chapter.
+
+Only the desired amount of primer data is shown, described in detail in the Searching and Sorting Primer Data section.
 
 Details of each primer can be viewed by clicking the box on the left of each primer then choosing "Open Data" on the top right.
 
@@ -128,6 +130,8 @@ Search under these traits is available:
 Primers can be sorted based on certain traits by clicking on the "View columns" button on the top right and checking off the boxes with desired traits, then clicking the name of the trait on top of each column to sort based on ascending order and double clicking for the descending order.
 
 ![sort2](./sort2.png)
+
+When checking off the boxes, the user can also use the option of "select all" to see all the data at the same time.
 
 ![viewcolumns](./viewcolumns.png)
 
