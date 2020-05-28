@@ -184,7 +184,7 @@ When adding a TaqProbe, extra options for putting in data open up:
 
 "Sequence" is also not among obligatory data for TaqProbes.
 
-A document can also be added as an appendix to the primer data (i.e. the information sheet provided by the manufacturer).
+A document can be added as an appendix to the primer data (i.e. the information sheet provided by the manufacturer).
 
 ## Customizing Primer Data
 
@@ -192,7 +192,7 @@ After accessing primer data by opening the primer details (described in the "Acc
 
 ![access2](./access2.png)
 
-This allows the user to add a comment, manage the primer volume and formulation or correct any possible mistakes that were made while adding a new primer into the repository. The level of allowed editing is based on the the user's assigned role.
+This allows the user to add a comment, manage the primer volume and formulation or correct any possible mistakes that were made while adding a new primer into the repository. The level of allowed editing is based on the the user's assigned role. Everything is saved in the "History" section.
 
 ## Ordering New Primers
 
@@ -214,7 +214,9 @@ When ordering two primers simultaneously, common features are required first and
 
 ![ordertwoprimer](./ordertwoprimer.png)
 
-fter completing an order, the date of order appears in the primer details to notify other users searching for that primer.
+If a mistake has been made while putting in the data, the system sends you a warning message.
+
+After completing an order, the date of order appears in the primer details to notify other users searching for that primer.
 
 Existing orders can be viewed in the "Orders" page, accessible on the top left of the site. Under it is a "Wanted Oligonucleotide Primers" section, where the user can view all the primers pending to be ordered and when enough material from the same supplier is under "wanted", everything can be ordered in a batch.
 
@@ -231,6 +233,7 @@ When an order has arrived, the primer can be moved to the primers repository by 
 After submitting the data, the primer appears in the dashboard section.
 
 ## Analysis
+
 
 ![database-diagram](./database-diagram.png)
 
