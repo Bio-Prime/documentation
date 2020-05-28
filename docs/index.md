@@ -135,7 +135,13 @@ To export all primer data from the database click on the download icon. To print
 
 ## Adding New Primers
 
-New primers are added with a click on the "Add" button on the top right. The system offers you to add one or two primers at the same time. If you simply want to upload a document you can click on the "CSV" option and upload your file on to the database.
+New primers are added with a click on the "+" sign (add button) on the top right.
+
+![addprimers1](./addprimers1.png)
+
+The system offers you to add one or two new or old primers at the same time. If you simply want to upload a file you can do so by clicking on the "CSV" option and uploading the document on to the database.
+
+![addprimer](./addprimer.png)
 
 | Required Data | Optional Data |
 |-------|-------|
@@ -158,11 +164,9 @@ New primers are added with a click on the "Add" button on the top right. The sys
 |  | Comment |
 |  | Analysis |
 
-![add_primer1](./add_primer1.JPG)
+![addoneprimernew](./addoneprimernew.png)
 
-![add_primer2](./add_primer2.JPG)
-
-![add_primer3](./add_primer3.JPG)
+![addtwoprimernew](./addtwoprimernew.png)
 
 When adding a new primer, user can choose between adding a single primer or a pair (forward and reverse). When putting in data for a pair of primers, common features are put in first, specific features for each primer are:
 
@@ -201,9 +205,11 @@ This allows the user to add a comment, manage the primer volume and formulation 
 
 ## Ordering New Primers
 
-If the user wants to make a new orders, they should access Orders. It should be noted that if less than 10 µL of a primer are available, a new order should be made immediately.
+To make a new order, access the "Orders" page by clicking on the shopping cart icon.
 
 ![orders](./orders.png)
+
+It should be noted that if less than 10 µL of a primer are available, a new order should be made immediately.
 
 To order a new primer, the user should click on the "+" sign on the top right, and choose between ordering one or two primers. The required fields should be filled in.
 
