@@ -78,7 +78,7 @@ After logging in, user is presented with the Dashboard, the main page of the pro
 
 ![dashboard](./dashboard.png)
 
-Icons on the left show (in descending order):
+Icons on the left show (in a descending order):
 
 * Dashboard, the main page showing primer data
 * Orders, where recent and pending orders can be viewed
@@ -230,14 +230,13 @@ If your order can be ordered in a batch with other primers, it can be added as a
 
 ![orders2](./orders2.png)
 
-When an order has arrived, the primer can be moved to the primers repository by clicking the "Move to primers" (arrow symbol) button. Some additional data, that weren't required when placing an order (but are required when adding a new primer) should be filled in at this point, (noted with a *). 
+When an order has arrived, the primer can be moved to the primers repository by clicking the "Move to primers" (arrow symbol) button. Some additional data, that weren't required when placing an order (but are required when adding a new primer) should be filled in at this point, (noted with a *).
 
 ![MoveToPrimers](./MoveToPrimers.png)
 
 After submitting the data, the primer appears in the dashboard section.
 
 ## Analysis
-
 
 ![database-diagram](./database-diagram.png)
 
