@@ -125,9 +125,11 @@ Search under these traits is available:
 
 ![filter1](./filter1.png)
 
-Primers can be sorted based on certain traits by clicking on the "View columns" button on the top right and checking off the boxes with desired traits, then clicking the name of the trait on top of each column to sort based on ascending order and double clicking for descending order.
+Primers can be sorted based on certain traits by clicking on the "View columns" button on the top right and checking off the boxes with desired traits, then clicking the name of the trait on top of each column to sort based on ascending order and double clicking for the descending order.
 
 ![sort2](./sort2.png)
+
+![viewcolumns](./viewcolumns.png)
 
 To export all primer data from the database click on the download icon. To print everything click on the printer icon.
 
@@ -139,9 +141,11 @@ New primers are added with a click on the "+" sign (add button) on the top right
 
 ![addprimers1](./addprimers1.png)
 
-The system offers you to add one or two new or old primers at the same time. If you simply want to upload a file you can do so by clicking on the "CSV" option and uploading the document on to the database.
+The system offers you to add one or two (forward and reverse) primers at the same time. You also have the option to put in old primers from the existing data base. If you want to upload a file to the database you can do so by clicking on the "CSV" option and choosing your document to upload.
 
 ![addprimer](./addprimer.png)
+
+When adding a new primer, the user has to put in the obligatory data (tagged with a * symbol) before the system lets you access the next page. This is a summary:
 
 | Required Data | Optional Data |
 |-------|-------|
@@ -166,22 +170,9 @@ The system offers you to add one or two new or old primers at the same time. If 
 
 ![addoneprimernew](./addoneprimernew.png)
 
+When putting in data for a pair of primers, common features are put in first and then specific features for each primer (shown in the picture).
+
 ![addtwoprimernew](./addtwoprimernew.png)
-
-When adding a new primer, user can choose between adding a single primer or a pair (forward and reverse). When putting in data for a pair of primers, common features are put in first, specific features for each primer are:
-
-* Name of primer (obligatory)
-* Position in the reference (obligatory)
-* Length
-* Tm (℃)
-* Optimal T of annealing (℃)
-* GC %
-* Storing T (℃)
-* Sequence (obligatory)
-* 5' modification (obligatory)
-* 3' modification (obligatory)
-* Location (obligatory)
-* Comment
 
 When adding a TaqProbe, extra options for putting in data open up:
 
@@ -209,19 +200,35 @@ To make a new order, access the "Orders" page by clicking on the shopping cart i
 
 ![orders](./orders.png)
 
-It should be noted that if less than 10 µL of a primer are available, a new order should be made immediately.
+It should be noted that if less than 10 µL of a primer are available, a new order should be placed immediately.
 
-To order a new primer, the user should click on the "+" sign on the top right, and choose between ordering one or two primers. The required fields should be filled in.
+To order a new primer, the user should click on the "+" sign on the top right, and choose between ordering one or two primers.
 
 ![order3](./order3.png)
 
-After completing an order, the date of order appears in the primer details to notify other users when searching for that primer.
+Similar to the procedure of adding a new primer, the required fields should be filled in.
+
+![orderonepriimer](./orderonepriimer.png)
+
+When ordering two primers simultaneously, common features are required first and then specific for each primer.
+
+![ordertwoprimer](./ordertwoprimer.png)
+
+fter completing an order, the date of order appears in the primer details to notify other users searching for that primer.
+
 Existing orders can be viewed in the "Orders" page, accessible on the top left of the site. Under it is a "Wanted Oligonucleotide Primers" section, where the user can view all the primers pending to be ordered and when enough material from the same supplier is under "wanted", everything can be ordered in a batch.
 
-Before adding a new order, this page should be checked so the orders don't overlap. If the primer has already been order this is also shown under "primer details" (described in the "Access to primer data library" section).
-If the order is the first one from the batch, it can be added as a pending order under the "Wanted Oligonucleotide Primers", this allows other users to add their wishes and all the primers can be ordered in a batch. This is done by selecting a primer and then clicking "Move to ordered primers" after ordering.
+Note that before adding a new order, this page should be checked so the orders don't overlap. If the primer has already been ordered, this is also shown under "primer details" (described in the "Access to primer data library" section).
+
+If your order can be ordered in a batch with other primers, it can be added as a pending order under the "Wanted Oligonucleotide Primers". This allows other users to add their wishes and all the primers can be ordered in a single batch. When an order has been placed, the primers from the "Wanted Oligonucleotide Primers" section are moved to the "Ordered Oligonucleotide Primers" by selecting the primer(s) and clicking "Move to ordered primers" arrow symbol button(shown in the picture).
 
 ![orders2](./orders2.png)
+
+When an order has arrived, the primer can be moved to the primers repository by clicking the "Move to primers" (arrow symbol) button. Some additional data, that weren't required when placing an order (but are required when adding a new primer) should be filled in at this point, (noted with a *). 
+
+![MoveToPrimers](./MoveToPrimers.png)
+
+After submitting the data, the primer appears in the dashboard section.
 
 ## Analysis
 
