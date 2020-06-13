@@ -18,7 +18,7 @@ Good documentation constitutes an essential part of the quality assurance system
 
 #### Use - case diagram
 
-![userTypes](./userTypes.jpeg)
+![usertypes](./usertypes.png)
 
 ### Users access
 
