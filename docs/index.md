@@ -5,9 +5,9 @@
 
 ### First Introduction
 
-The document describes the specifications of the repository BioPrime for computerisation of biobanks for primers. The respository is a system for organised management of informations about the primers, the existing stocks of primers in the laboratory and their location there. It will simplify the ordering and the recording of the consumption of primers. It will also provide a way better trasparency of the analyses of the companies and ease their everyday work.
+This document describes the specifications of BioPrime, a computerized primer repository. This is a system for organizing and managing primer data, keeping track of existing stock of primers available in the laboratory and their location of storage. It was designed to simplify the primer ordering procedure and keeping record of the primer consumption. It can provide a better overview of analysis of a laboratory and work as a time-saving tool.
 
-Good documentation constitutes an essential part of the quality assurance system and is key to operating in compliance with GMP requirements, so with this document we provide you a description of the functions of the repository, instructions and procedures, written in an instructional form. The document contains:
+Good documentation constitutes an essential part of the quality assurance system and is crucial for operating in compliance with GMP requirements, so with this document we provide you a detailed description of specific functions of the repository, including instructions and procedures written in an instructional form. The document contains:
 
 * review of the repository with a use – case diagram
 * detailed description of user access control
@@ -36,7 +36,7 @@ A Guest / General user will have the access to primer data (view only) and will 
 
 #### Student
 
-A Student will have access to primer data (view only) and history view. They will be able to export data and modify primer volume.
+A Student will have access to primer data (view only) and history view. They will be able to export data and modify primer volume, 
 
 #### Laboratory Technician
 
