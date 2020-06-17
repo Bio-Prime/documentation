@@ -22,7 +22,7 @@ Good documentation constitutes an essential part of the quality assurance system
 
 ### Users access
 
-A new user is created by the Administrator, who also provides the username (or new users log in with an already existing email) and password. He also sets the user's role and their level of access.  As written before, different users will have different roles in the repository, which controls their information access. The roles are:
+A new user is created by the Administrator, who also provides the username and password, which is then changed by the user. New users can also log in with an already existing email. The Administrator also sets the user's role and their level of access. As already mentioned, different users have different roles in the repository, which controls their access to information or modifying of data. The roles in an ascending order of access are:
 
 * Guest / General user
 * Student
@@ -32,23 +32,23 @@ A new user is created by the Administrator, who also provides the username (or n
 
 #### Guest / General user
 
-A Guest / General user will have the access to primer data (view only) and will be able to export data.
+A Guest / General user has access to primer data (view only) and can export data for printing or other use.
 
 #### Student
 
-A Student will have access to primer data (view only) and history view. They will be able to export data and modify primer volume, 
+A Student has access to primer data (view only) and history view. They can export data and modify primer volume or add a comment.
 
 #### Laboratory Technician
 
-A Laboratory Technician will have access to primer data (view only) and history view. They will be able to import  (but not export), order new / reorder primers and modify primer volume and state (formulation).
+A Laboratory Technician has access to primer data (view only) and history view. They are able to import  (but not export), order new / reorder primers and modify primer volume and state (formulation).
 
 #### Researcher / Lab Staff
 
-A Researcher / Lab Staff will have access to primer data (view only) and history view. They will be able to import and also export data, to add or remove primers, modify primer data, volume and state (formulation) and order new / reorder primers.
+A Researcher / Lab Staff has access to primer data (view only) and history view. They are able to import and also export data, add or remove primers, modify primer data, volume and state (formulation) and order new / reorder primers.
 
 #### Administrator
 
-The Administrator will have access to primer data (view only) and history view. They will be able to import and also export data, to add or remove primers, modify primer data, volume and state (formulation) and order new primers / reorder primers. They will see the users overview and be able to add or remove users, modify  access level of users and modify their roles.
+The Administrator has access to primer data (view only) and history view. They can export and also import data, add or remove primers, modify primer data, volume and state (formulation) and order new primers / reorder primers. They can see the users overview (access to user data) and are able to add or remove users, modify the level of access of users and change their roles.
 
 ## System Functionality
 
