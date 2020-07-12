@@ -1,7 +1,7 @@
 ﻿
 # Specifications of BioPrime
 
-## A repository for keeping record of the primers in a Biobank
+## A Repository for Keeping Record of Primers in a Biobank
 
 ### First Introduction
 
@@ -14,13 +14,13 @@ Good documentation constitutes an essential part of the quality assurance system
 * functional requirements of individual parts of the repository (system functionality)
 * user view, that represents the final appearance of the repository
 
-### Review of the repository
+### Review of the Repository
 
-#### Use - case diagram
+#### Use - case Diagram
 
 ![usertypes1](./usertypes1.png)
 
-### Users access
+### User Access Control
 
 A new user is created by the Administrator, who also provides the username and password, which is then changed by the user. New users can also log in with an already existing email. The Administrator also sets the user's role and their level of access. As already mentioned, different users have different roles in the repository, which controls their access to information or modifying of data. The roles in an ascending order of access are:
 
@@ -30,7 +30,7 @@ A new user is created by the Administrator, who also provides the username and p
 * Researcher / Lab Staff
 * Administrator
 
-#### Guest / General user
+#### Guest / General User
 
 A Guest / General user has access to primer data (view only) and can export data for printing or other use.
 
