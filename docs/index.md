@@ -238,11 +238,11 @@ After submitting the data, the primer appears in the dashboard section.
 
 ## Adding and Customizing Users
 
-This option is only visible to the Administrator. User view is accessed by clicking on the user icon (the bottom option) on the left.
+This function is only visible to the Administrator who can add / delete and customize users and their roles. User view is accessed by clicking on the user icon (the bottom option) on the left.
 
 ![users0](./users0.png)
 
-The admin page shows all the users and their roles with graph on top of the page showing the distribution of users.
+The admin page shows all the users and their roles with a graphic representation on top of the page showing the distribution of users.
 
 ![users](./users.png)
 
