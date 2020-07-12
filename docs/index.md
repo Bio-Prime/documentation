@@ -16,7 +16,7 @@ Good documentation constitutes an essential part of the quality assurance system
 
 ### Review of the Repository
 
-#### Use - case Diagram
+#### Use Case Diagram
 
 ![usertypes1](./usertypes1.png)
 
@@ -48,7 +48,7 @@ A Researcher / Lab Staff has access to primer data (view only) and history view.
 
 #### Administrator
 
-The Administrator has access to primer data (view only) and history view. They can export and also import data, add or remove primers, modify primer data, volume and state (formulation) and order new primers / reorder primers. They can see the users overview (access to user data) and are able to add or remove users, modify the level of access of users and change their roles.
+The Administrator has access to primer data (view only), history view and user view. They can export and also import data, add or remove primers, modify primer data, volume and state (formulation) and order new primers / reorder primers. They can see the users overview and add or remove users, modify their level of access and change their roles.
 
 ## System Functionality
 
@@ -236,7 +236,31 @@ When an order has arrived, the primer can be moved to the primers repository by 
 
 After submitting the data, the primer appears in the dashboard section.
 
-## Analysis
+## Adding and Customizing Users
+
+This option is only visible to the Administrator. User view is accessed by clicking on the user icon (the bottom option) on the left.
+
+![users0](./users0.png)
+
+The admin page shows all the users and their roles with graph on top of the page showing the distribution of users.
+
+![users](./users.png)
+
+To add a new user to the list click on the Add (+) sign in the top right corner of the list.
+
+![users1](./users1.png)
+
+When a new user is added, Full name, Username, Role, Work title and Password need to be defined.
+
+![users2](./users2.png)
+
+To edit a user select the user in the checkbox on the left then click on the "Open selected" sign.
+
+![users3](./users3.png)
+
+The editing user windows opens up and allows the Admin to change the Full name, Username or Role.
+
+![users4](./users4.png)
 
 ![database-diagram](./database-diagram.png)
 
