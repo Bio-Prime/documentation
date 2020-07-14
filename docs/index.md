@@ -147,7 +147,7 @@ To export all primer data from the database click on the download icon. To print
 
 ## Adding New Primers
 
-New primers are added with a click on the "+" sign (add button) on the top right.
+New primers are added with a click on the Add (+) sign on the top right.
 
 ![addprimers1](./addprimers1.png)
 
@@ -198,7 +198,7 @@ A document can be added as an appendix to the primer data (i.e. the information 
 
 ## Customizing Primer Data
 
-After accessing primer data by opening the primer details (described in the "Access to primer data library" section), the user can edit the data by clicking on the editor icon.
+After accessing primer data by opening the primer details (described in the "Access to primer data library" section), the user can edit data by clicking on the editor icon.
 
 ![access2](./access2.png)
 
@@ -212,7 +212,7 @@ To make a new order, access the "Orders" page by clicking on the shopping cart i
 
 It should be noted that if less than 10 µL of a primer are available, a new order should be placed immediately.
 
-To order a new primer, the user should click on the "+" sign on the top right, and choose between ordering one or two primers.
+To order a new primer, the user should click on the Add (+) sign on the top right, and choose between ordering one or two primers.
 
 ![order3](./order3.png)
 
@@ -228,7 +228,7 @@ If a mistake has been made while putting in the data, the system sends you a war
 
 After completing an order, the date of order appears in the primer details to notify other users searching for that primer.
 
-Existing orders can be viewed in the "Orders" page, accessible on the top left of the site. Under it is a "Wanted Oligonucleotide Primers" section, where the user can view all the primers pending to be ordered and when enough material from the same supplier is under "wanted", everything can be ordered in a batch.
+Existing orders can be viewed in the "Orders" page, accessible on the top left of the site. Under it is the "Wanted Oligonucleotide Primers" section, where the user can view all the primers pending to be ordered and when enough material from the same supplier is under "wanted", everything can be ordered in a batch.
 
 Note that before adding a new order, this page should be checked so the orders don't overlap. If the primer has already been ordered, this is also shown under "primer details" (described in the "Access to primer data library" section).
 
@@ -267,6 +267,8 @@ To edit a user select the user in the checkbox on the left then click on the "Op
 The editing user windows opens up and allows the Admin to change the Full name, Username or Role.
 
 ![users4](./users4.png)
+
+In this database diagram we can see how pages are interconnected and which atributes belong to specific entities.
 
 ![database-diagram](./database-diagram.png)
 
