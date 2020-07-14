@@ -102,7 +102,7 @@ Details of each primer can be viewed by clicking the box on the left of each pri
 
 This way primers can also be modified or deleted, if your assigned role allows you that option. This is described in the Customizing primer data section.
 
-## Searching and Sorting Primer Data
+## Searching Primer Data
 
 Search options include normal and advanced search options.
 To access the search bar select the search icon and the bar will appear on the left. When using normal search, the user can search solely based on the gene.
@@ -127,11 +127,13 @@ Search under these traits is available:
 
 ![filter1](./filter1.png)
 
-Here's an example of a specific search.
+Here's an example of a specific search, where only 3 primers meet the searching criteria.
 
 ![search2](./search2.png)
 
-Primers can be sorted based on certain traits by clicking on the "View columns" button on the top right and checking off the boxes with desired traits, then clicking the name of the trait on top of each column to sort based on ascending order and double clicking for the descending order.
+## Sorting Primer Data
+
+Primers can be sorted based on certain traits by clicking on the "View columns" button on the top right and checking off the boxes with desired traits, then clicking the name of the trait on top of each column to sort them based on ascending order and double clicking for the descending order.
 
 ![sort2](./sort2.png)
 
