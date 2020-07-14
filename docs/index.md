@@ -74,7 +74,7 @@ If the password has been forgotten or the e-mail has been changed, the Administr
 
 ## Access to Primer Data Library
 
-After logging in, user is presented with the Dashboard, the main page of the program.
+After logging in, the user is presented with the Dashboard, the main page of the program.
 
 ![dashboard](./dashboard.png)
 
@@ -86,7 +86,7 @@ Icons on the left show (in a descending order):
 
 ![menu1](./menu1.png)
 
-The Administrator also has access to the "Manage Users" section.
+The Administrator also has access to the "Manage Users" section, where they can add / delete users and change their roles.
 
 ![admin](./admin.png)
 
@@ -109,7 +109,7 @@ To access the search bar select the search icon and the bar will appear on the l
 
 ![search1](./search1.png)
 
-Advanced search can be accessed by clicking on the "Filter Table" button on the top right,
+Advanced search can be accessed by clicking on the "Filter Table" button on the top right and checking off the desired criteria.
 
 ![sort1](./sort1.png)
 
@@ -126,6 +126,10 @@ Search under these traits is available:
 * Location (Freezer)
 
 ![filter1](./filter1.png)
+
+Here's an example of a specific search.
+
+![search2](./search2.png)
 
 Primers can be sorted based on certain traits by clicking on the "View columns" button on the top right and checking off the boxes with desired traits, then clicking the name of the trait on top of each column to sort based on ascending order and double clicking for the descending order.
 
