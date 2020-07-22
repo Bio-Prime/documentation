@@ -207,7 +207,7 @@ The users with the assigned role (described in the User Access Control section) 
 
 ![access2](./access2.png)
 
-This allows the user to edit any data or correct possible mistakes that were made while adding a new primer into the repository. This also includes project information, designer and supplier information and any aditional information.
+This allows the user to edit data or correct any possible mistakes that were made while adding a new primer into the repository. This includes basic primer properties, form of ordered primer, location in the laboratory, project information, designer and supplier information, all described in detail in the "Adding New Primers" section.
 
 ![edit1](./edit1.png)
 
