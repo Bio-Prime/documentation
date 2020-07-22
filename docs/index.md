@@ -56,9 +56,10 @@ We divided the system functionality into specific sections:
 
 * Login Page
 * Access to Primer Data Library
-* Searching and Sorting Primer Data
+* Searching Primer Data
+* Sorting Primer Data
 * Adding New Primers
-* Customizing Primer Data
+* Editing Primer Data
 * Ordering New Primers
 * History View
 * Adding and Customizing Users
