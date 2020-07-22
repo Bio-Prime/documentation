@@ -247,6 +247,14 @@ When an order has arrived, the primer can be moved to the primers repository by 
 
 After submitting the data, the primer appears in the dashboard section.
 
+## History View
+
+Users with the right permission can access the history page and view any recent changes made by other users, including adding or editing primer data and adding or customizing users. Any changes in the Orders section can be viewed in the Orders directly.
+
+This is what a history view looks like:
+
+![history1](./history1.png)
+
 ## Adding and Customizing Users
 
 This function is only visible to the Administrator who can add / delete and customize users and their roles. User view is accessed by clicking on the user icon (the bottom option) on the left.
