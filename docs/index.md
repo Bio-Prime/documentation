@@ -5,14 +5,15 @@
 
 ### First Introduction
 
-This document describes the specifications of BioPrime, a computerized primer repository. This is a system for organizing and managing primer data, keeping track of existing stock of primers available in the laboratory and their location of storage. It was designed to simplify the primer ordering procedure and keeping record of the primer consumption. It can provide a better overview of analysis of a laboratory and work as a time-saving tool.
+This document describes the specifications of BioPrime, a computerized repository for keeping track of primer data. This is a system for organizing and managing primer data, keeping track of existing stock of primers available in the laboratory and their location of storage. It was designed to simplify the procedure of ordering primers and to keeping record of primer consumption. It also provides a better overview of research and analysis performed in a laboratory and can work as a time-saving tool.
 
-Good documentation constitutes an essential part of the quality assurance system and is crucial for operating in compliance with GMP requirements, so with this document we provide you a detailed description of specific functions of the repository, including instructions and procedures written in an instructional form. The document contains:
+Good documentation constitutes an essential part of the quality assurance system and is crucial for operating in compliance with GMP requirements. This document provides a detailed description of specific functions of the repository, including instructions and procedures written in an instructional form. The document contains:
 
 * review of the repository with a use case diagram
 * detailed description of user access control
 * functional requirements of individual parts of the repository (system functionality)
 * user view, that represents the final appearance of the repository
+* a database diagram showing all attributes and how the pages are interconnected
 
 ### Review of the Repository
 
@@ -22,7 +23,9 @@ Good documentation constitutes an essential part of the quality assurance system
 
 ### User Access Control
 
-A new user is created by the Administrator, who also provides the username and password, which is then changed by the user. New users can also log in with an already existing email. The Administrator also sets the user's role and their level of access. As already mentioned, different users have different roles in the repository, which controls their access to information or modifying of data. The roles in an ascending order of access are:
+A new user is created by the Administrator, who also provides their username and password, which can be changed by the user. New users can also log in with an already existing email. The Administrator sets the user's role and their level of access.
+
+Different users have different roles in the repository, which controls their access to information or modifying of data. The roles in an ascending order of access are:
 
 * Guest / General user
 * Student
@@ -72,7 +75,7 @@ When you access the BioPrime website, the page first offers you the login option
 
 New users and their assigned roles are created by the Administrator. Users are then notified by e-mail about their access grant. Personal or work e-mail can be used as the username and the password should be set by the users themselves.
 
-If the password has been forgotten or the e-mail has been changed, the Administrator can permit the option of creating a new password, change the role of the user or delete and add them with a new e-mail.
+If the password has been forgotten or the e-mail changed, the Administrator can permit the option of creating a new password, change the role of the user or delete and add them with a new e-mail.
 
 ## Access to Primer Data Library
 
@@ -88,13 +91,13 @@ Icons on the left show (in a descending order):
 
 ![menu1](./menu1.png)
 
-The Administrator also has access to the "Manage Users" section, where they can add / delete users and change their roles.
+The Administrator also has access to the "Manage Users" page, where they can add / delete users and change their roles.
 
 ![admin](./admin.png)
 
 Dashboard view shows general analysis data on top of the page, including the occupancy of refrigerators and the total number of primers.
 
-Primers are presented in a list and are automatically sorted by their Generated name in a descending order. The order can be modified based on any trait (such as Sequence, Freezer, User etc.), described in detail in the Customizing primer data chapter.
+Primers are presented in a list and are automatically sorted by their Generated name in a descending order. This order can be modified based on any trait (such as Sequence, Freezer, User etc.), described in detail in the “Editing primer data” section.
 
 Only the desired amount of primer data is shown, described in detail in the Searching and Sorting Primer Data section.
 
@@ -102,12 +105,12 @@ Details of each primer can be viewed by clicking the box on the left of each pri
 
 ![access1](./access1.png)
 
-This way primers can also be modified or deleted, if your assigned role allows you that option. This is described in the Customizing primer data section.
+This way primers can also be modified or deleted, if your assigned role allows you that option. This is described in detail in the "Editing primer data" section.
 
 ## Searching Primer Data
 
-Search options include normal and advanced search options.
-To access the search bar select the search icon and the bar will appear on the left. When using normal search, the user can search solely based on the gene.
+Search options include normal and advanced options.
+To access the search bar, select the search icon and the bar will appear on the left. When using normal search, the user can search solely based on the gene.
 
 ![search1](./search1.png)
 
@@ -135,7 +138,7 @@ Here's an example of a specific search, where only 3 primers meet the searching 
 
 ## Sorting Primer Data
 
-Primers can be sorted based on certain traits by clicking on the "View columns" button on the top right and checking off the boxes with desired traits, then clicking the name of the trait on top of each column to sort them based on ascending order and double clicking for the descending order.
+Primers can be sorted based on certain traits by clicking on the "View columns" button on the top right and checking off the boxes with desired traits, then clicking on the name of the trait on top of each column to sort them based on ascending order and double clicking for the descending order.
 
 ![sort2](./sort2.png)
 
@@ -143,9 +146,13 @@ When checking off the boxes, the user can also use the option of "select all" to
 
 ![viewcolumns](./viewcolumns.png)
 
-To export all primer data from the database click on the download icon. To print everything click on the printer icon.
+To export all primer data from the database, click on the download icon. To print everything click on the printer icon.
 
 ![export1](./export1.png)
+
+To export specific primer data, select a primer first, select "Open data" and then click on the download icon.
+
+![export2](./export2.png)
 
 ## Adding New Primers
 
@@ -153,7 +160,7 @@ New primers are added with a click on the Add (+) sign on the top right.
 
 ![addprimers1](./addprimers1.png)
 
-The system offers you to add one or two (forward and reverse) primers at the same time. You also have the option to put in old primers from the existing data base. If you want to upload a file to the database you can do so by clicking on the "CSV" option and choosing your document to upload.
+The system offers you to add one or two (forward and reverse) primers at the same time. You also have the option to put in old primers from the existing data base. If you want to upload a file to the database, you can do so by clicking on the "CSV" option and choosing your document to upload.
 
 ![addprimer](./addprimer.png)
 
@@ -270,7 +277,7 @@ The admin page shows all the users and their roles with a graphic representation
 
 ![users](./users.png)
 
-To add a new user to the list click on the Add (+) sign in the top right corner of the list.
+To add a new user to the list, click on the Add (+) sign in the top right corner of the list.
 
 ![users1](./users1.png)
 
@@ -278,7 +285,7 @@ When a new user is added, Full name, Username, Role, Work title and Password nee
 
 ![users2](./users2.png)
 
-To edit a user select the user in the checkbox on the left then click on the "Open selected" sign.
+To edit a user, select the user in the checkbox on the left then click on the "Open selected" sign.
 
 ![users3](./users3.png)
 
@@ -286,7 +293,7 @@ The editing user windows opens up and allows the Admin to change the Full name, 
 
 ![users4](./users4.png)
 
-In this database diagram we can see how pages are interconnected and which atributes belong to specific entities.
+In this database diagram we can see how pages are interconnected and which attributes belong to specific entities.
 
 ![database-diagram](./database-diagram.png)
 
