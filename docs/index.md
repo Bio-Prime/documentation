@@ -9,7 +9,7 @@ This document describes the specifications of BioPrime, a computerized primer re
 
 Good documentation constitutes an essential part of the quality assurance system and is crucial for operating in compliance with GMP requirements, so with this document we provide you a detailed description of specific functions of the repository, including instructions and procedures written in an instructional form. The document contains:
 
-* review of the repository with a use – case diagram
+* review of the repository with a use case diagram
 * detailed description of user access control
 * functional requirements of individual parts of the repository (system functionality)
 * user view, that represents the final appearance of the repository
