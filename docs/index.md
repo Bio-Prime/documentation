@@ -60,7 +60,8 @@ We divided the system functionality into specific sections:
 * Adding New Primers
 * Customizing Primer Data
 * Ordering New Primers
-* Analysis
+* History View
+* Adding and Customizing Users
 
 ## Login Page
 
@@ -82,7 +83,7 @@ Icons on the left show (in a descending order):
 
 * Dashboard, the main page showing primer data
 * Orders, where recent and pending orders can be viewed
-* History, which shows a timeline of all changes made by the users (view limited only to specific users)
+* History, which shows a timeline of all changes made by the users (view limited only to specific users, described in the User Access Control section)
 
 ![menu1](./menu1.png)
 
@@ -196,13 +197,17 @@ When adding a TaqProbe, extra options for putting in data open up:
 
 A document can be added as an appendix to the primer data (i.e. the information sheet provided by the manufacturer).
 
-## Customizing Primer Data
+## Editing Primer Data
 
 After accessing primer data by opening the primer details (described in the "Access to primer data library" section), the user can edit data by clicking on the editor icon.
 
 ![access2](./access2.png)
 
-This allows the user to add a comment, manage the primer volume and formulation or correct any possible mistakes that were made while adding a new primer into the repository. The level of allowed editing is based on the the user's assigned role. Everything is saved in the "History" section.
+This allows the user to add a comment, manage the primer volume and formulation or correct any possible mistakes that were made while adding a new primer into the repository. This includes project information, designer and supplier information and any aditional information that can be added during the use of primers. The level of allowed editing is based on the the user's assigned role (described in the User Access Control section).
+
+![edit1](./edit1.png)
+
+Any changes made can be viewed in the "History" section.
 
 ## Ordering New Primers
 
