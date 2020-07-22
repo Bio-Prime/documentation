@@ -199,11 +199,15 @@ A document can be added as an appendix to the primer data (i.e. the information 
 
 ## Editing Primer Data
 
-After accessing primer data by opening the primer details (described in the "Access to primer data library" section), the user can edit data by clicking on the editor icon.
+After accessing primer data by opening the primer details (described in the "Access to primer data library" section), the user can edit data such as amount available, analysis and comment on the right side of the page by clicking on the bar and then clicking "Save".
+
+![edit0](./edit0.png)
+
+The users with the assigned role (described in the User Access Control section) can also edit all the other information by clicking on the editor icon and accessing the "Edit oligonucleotide primer" page.
 
 ![access2](./access2.png)
 
-This allows the user to add a comment, manage the primer volume and formulation or correct any possible mistakes that were made while adding a new primer into the repository. This includes project information, designer and supplier information and any aditional information that can be added during the use of primers. The level of allowed editing is based on the the user's assigned role (described in the User Access Control section).
+This allows the user to edit any data or correct possible mistakes that were made while adding a new primer into the repository. This also includes project information, designer and supplier information and any aditional information.
 
 ![edit1](./edit1.png)
 
