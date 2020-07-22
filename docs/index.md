@@ -160,7 +160,7 @@ New primers are added with a click on the Add (+) sign on the top right.
 
 ![addprimers1](./addprimers1.png)
 
-The system offers you to add one or two (forward and reverse) primers at the same time. You also have the option to put in old primers from the existing data base. If you want to upload a file to the database, you can do so by clicking on the "CSV" option and choosing your document to upload.
+The system offers you to add one or two (forward and reverse) primers at the same time. You also have the option to put in old primers from the existing data base. If you want to upload a file or import data to the database, you can do so by clicking on the "CSV" option and choosing your document to upload.
 
 ![addprimer](./addprimer.png)
 
@@ -203,11 +203,11 @@ When adding a TaqProbe, extra options for putting in data open up:
 
 "Sequence" is also not among obligatory data for TaqProbes.
 
-A document can be added as an appendix to the primer data (i.e. the information sheet provided by the manufacturer).
+A document can be added as an appendix to the primer data (e.g. the information sheet provided by the manufacturer).
 
 ## Editing Primer Data
 
-After accessing primer data by opening the primer details (described in the "Access to primer data library" section), the user can edit data such as amount available, analysis and comment on the right side of the page by clicking on the bar and then clicking "Save".
+After accessing primer data by opening the primer details (described in the "Access to Primer Data Library" section), the user can edit data such as amount available, analysis and comment on the right side of the page by clicking on the bar and then clicking "Save".
 
 ![edit0](./edit0.png)
 
@@ -215,7 +215,7 @@ The users with the assigned role (described in the User Access Control section) 
 
 ![access2](./access2.png)
 
-This allows the user to edit data or correct any possible mistakes that were made while adding a new primer into the repository. This includes basic primer properties, form of ordered primer, location in the laboratory, project information, designer and supplier information, all described in detail in the "Adding New Primers" section.
+This allows the user to edit data or correct any possible mistakes that were made during the process of adding new primers to the repository. This includes basic primer properties, form of ordered primer, location in the laboratory, project information, designer and supplier information (all described in detail in the "Adding New Primers" section).
 
 ![edit1](./edit1.png)
 
@@ -223,7 +223,7 @@ Any changes made can be viewed in the "History" section.
 
 ## Ordering New Primers
 
-To make a new order, access the "Orders" page by clicking on the shopping cart icon.
+To make a new order, access the "Orders" page (shown below) by clicking on the shopping cart icon.
 
 ![orders](./orders.png)
 
@@ -245,11 +245,11 @@ If a mistake has been made while putting in the data, the system sends you a war
 
 After completing an order, the date of order appears in the primer details to notify other users searching for that primer.
 
-Existing orders can be viewed in the "Orders" page, accessible on the top left of the site. Under it is the "Wanted Oligonucleotide Primers" section, where the user can view all the primers pending to be ordered and when enough material from the same supplier is under "wanted", everything can be ordered in a batch.
+Existing orders can be viewed in the "Orders" page, accessible by clicking on the shopping cart icon on the top left part of the page. Under the “Orders” section is the "Wanted Oligonucleotide Primers" section, where the user can view all the primers pending to be ordered.
 
-Note that before adding a new order, this page should be checked so the orders don't overlap. If the primer has already been ordered, this is also shown under "primer details" (described in the "Access to primer data library" section).
+Note that before adding a new order, this page should be checked so the orders don't overlap. If the primer has already been ordered, this is also shown under the "Order status" in primer details (described in the "Access to Primer Data Library" section).
 
-If your order can be ordered in a batch with other primers, it can be added as a pending order under the "Wanted Oligonucleotide Primers". This allows other users to add their wishes and all the primers can be ordered in a single batch. When an order has been placed, the primers from the "Wanted Oligonucleotide Primers" section are moved to the "Ordered Oligonucleotide Primers" by selecting the primer(s) and clicking "Move to ordered primers" arrow symbol button(shown in the picture).
+If your order can be ordered in a batch with other primers, it can be added as a pending order under the "Wanted Oligonucleotide Primers". This allows other users to add their wishes and when enough material from the same supplier is under "wanted", everything can be ordered in a single batch. When an order has been placed, the primers from the "Wanted Oligonucleotide Primers" section are moved to the "Ordered Oligonucleotide Primers" by selecting the primer(s) and clicking "Move to ordered primers" arrow symbol button (shown in the picture).
 
 ![orders2](./orders2.png)
 
