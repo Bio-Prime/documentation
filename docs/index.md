@@ -81,15 +81,16 @@ If the password has been forgotten or the e-mail changed, the Administrator can 
 
 After logging in, the user is presented with the Dashboard, the main page of the program.
 
-![dashboard](./dashboard.png)
+![menu1](./menu1.png)
 
 Icons on the left show (in a descending order):
 
 * Dashboard, the main page showing primer data
 * Orders, where recent and pending orders can be viewed
 * History, which shows a timeline of all changes made by the users (view limited only to specific users, described in the User Access Control section)
+* Add primer / probe, a page for adding primers with no obligatory fields
 
-![menu1](./menu1.png)
+![menu2](./menu2.png)
 
 The Administrator also has access to the "Manage Users" page, where they can add / delete users and change their roles.
 
