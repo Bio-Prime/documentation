@@ -212,7 +212,7 @@ After accessing primer data by opening the primer details (described in the "Acc
 
 ![edit0](./edit0.png)
 
-The users with the assigned role (described in the User Access Control section) can also edit all the other information by clicking on the editor icon and accessing the "Edit oligonucleotide primer" page.
+The users with the assigned role (described in the User Access Control section) can also edit all the other information by clicking on the editor icon and accessing the "Edit primer" page.
 
 ![access2](./access2.png)
 
@@ -250,7 +250,7 @@ Existing orders can be viewed in the "Orders" page, accessible by clicking on th
 
 Note that before adding a new order, this page should be checked so the orders don't overlap. If the primer has already been ordered, this is also shown under the "Order status" in primer details (described in the "Access to Primer Data Library" section).
 
-If your order can be ordered in a batch with other primers, it can be added as a pending order under the "Wanted Oligonucleotide Primers". This allows other users to add their wishes and when enough material from the same supplier is under "wanted", everything can be ordered in a single batch. When an order has been placed, the primers from the "Wanted Oligonucleotide Primers" section are moved to the "Ordered Oligonucleotide Primers" by selecting the primer(s) and clicking "Move to ordered primers" arrow symbol button (shown in the picture).
+If your order can be ordered in a batch with other primers, it can be added as a pending order under the "Wanted". This allows other users to add their wishes and when enough material from the same supplier is under "Wanted", everything can be ordered in a single batch. When an order has been placed, the primers from the "Wanted" section are moved to the "Ordered" section by selecting the primer(s) and clicking "Move to ordered primers" arrow symbol button (shown in the picture).
 
 ![orders2](./orders2.png)
 
