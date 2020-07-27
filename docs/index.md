@@ -75,7 +75,7 @@ When you access the BioPrime website, the page first offers you the login option
 
 New users and their assigned roles are created by the Administrator. Users are then notified by e-mail about their access grant. Personal or work e-mail can be used as the username and the password should be set by the users themselves.
 
-If the password has been forgotten or the e-mail changed, the Administrator can permit the option of creating a new password, change the role of the user or delete and add them with a new e-mail.
+If the password has been forgotten, the Administrator can permit the option of creating a new password, change the role of the user or delete and add them with a new e-mail.
 
 ## Access to Primer Data Library
 
