@@ -102,6 +102,10 @@ Primers are presented in a list and are automatically sorted by their Generated 
 
 Only the desired amount of primer data is shown, described in detail in the Searching and Sorting Primer Data section.
 
+To link primers (e. g. forward, reverse and a probe) select the primers by clicking on the checkboxes on the left and then click on the “Link” icon on the right. The same procedure can be done for unlinking primers, by clicking on “Unlink”.
+
+![link1](./link1.png)
+
 Details of each primer can be viewed by clicking the box on the left of each primer then choosing "Open Data" on the top right.
 
 ![access1](./access1.png)
