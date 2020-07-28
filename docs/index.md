@@ -167,7 +167,7 @@ The “Add one general” option allows you to add a single primer or probe with
 
 ![addonegeneral](./addonegeneral.png)
 
-The system offers you to add one or two (forward and reverse) primers at the same time. You also have the option to put in old primers from the existing data base. If you want to upload a file or import data to the database, you can do so by clicking on the "CSV" option and choosing your document to upload.
+The “Add primer” option offers you to add one general primer (described in the previous sectin), one or two (forward and reverse) primers at the same time. You also have the option to put in old primers from the existing data base. If you want to upload a file or import data to the database, you can do so by clicking on the "CSV" option and choosing your document to upload.
 
 ![addprimers](./addprimers.png)
 
@@ -225,6 +225,8 @@ The users with the assigned role (described in the User Access Control section) 
 This allows the user to edit data or correct any possible mistakes that were made during the process of adding new primers to the repository. This includes basic primer properties, form of ordered primer, location in the laboratory, project information, designer and supplier information (all described in detail in the "Adding New Primers" section).
 
 ![edit1](./edit1.png)
+
+The “Analysis” field allows the user to link information (e.g. graphs or videos) as a part of the analysis to the primer data.
 
 Any changes made can be viewed in the "History" section.
 
