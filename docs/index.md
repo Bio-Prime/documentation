@@ -228,6 +228,8 @@ This allows the user to edit data or correct any possible mistakes that were mad
 
 The “Analysis” field allows the user to link information (e.g. graphs or videos) as a part of the analysis to the primer data.
 
+To delete a primer, select it by checking off the box on the left of its name then click on the “Delete” icon in the top right corner.
+
 Any changes made can be viewed in the "History" section.
 
 ## Ordering New Primers
