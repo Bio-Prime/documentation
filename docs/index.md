@@ -98,7 +98,7 @@ The Administrator also has access to the "Manage Users" page, where they can add
 
 Dashboard view shows general analysis data on top of the page, including the occupancy of refrigerators and the total number of primers.
 
-Primers are presented in a list and are automatically sorted by their Generated name in a descending order. This order can be modified based on any trait (such as Sequence, Freezer, User etc.), described in detail in the “Editing primer data” section.
+Primers are presented in a list and are automatically sorted by their Generated name in a descending order. This order can be modified based on any trait (such as Sequence, Freezer, User etc.) by clicking on the title of the trait (described in detail in the Sorting Primer Data section).
 
 Only the desired amount of primer data is shown, described in detail in the Searching and Sorting Primer Data section.
 
@@ -106,9 +106,7 @@ To link primers (e. g. forward, reverse and a probe) select the primers by click
 
 ![link1](./link1.png)
 
-Details of each primer can be viewed by clicking the box on the left of each primer then choosing "Open Data" on the top right.
-
-![access1](./access1.png)
+Details of each primer can be viewed by clicking on the bar with the primer.
 
 This way primers can also be modified or deleted, if your assigned role allows you that option. This is described in detail in the "Editing primer data" section.
 
@@ -161,15 +159,19 @@ To export specific primer data, select a primer first, select "Open data" and th
 
 ## Adding New Primers
 
-New primers are added with a click on the Add (+) sign on the top right.
+New primers are added with a click on the Add (+) sign on the left to add one primer / probe with no obligatory information to fill in (“Add one general”) or the Add (+) sign on top right to access all the adding options with some obligatory fields.
 
-![addprimers1](./addprimers1.png)
+![addprimer1](./addprimer1.JPG)
+
+The “Add one general” option allows you to add a single primer or probe with all fields optional to fill in.
+
+![addonegeneral](./addonegeneral.png)
 
 The system offers you to add one or two (forward and reverse) primers at the same time. You also have the option to put in old primers from the existing data base. If you want to upload a file or import data to the database, you can do so by clicking on the "CSV" option and choosing your document to upload.
 
-![addprimer](./addprimer.png)
+![addprimers](./addprimers.png)
 
-When adding a new primer, the user has to put in the obligatory data (tagged with a * symbol) before the system lets you access the next page. This is a summary:
+When adding a new primer in this way, the user has to put in the obligatory data (tagged with a * symbol) before the system lets you access the next page. This is a summary:
 
 | Required Data | Optional Data |
 |-------|-------|
