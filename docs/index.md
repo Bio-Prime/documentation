@@ -63,7 +63,7 @@ We divided the system functionality into specific sections:
 * Sorting Primer Data
 * Adding New Primers
 * Editing Primer Data
-* Ordering New Primers
+* Ordering Primers
 * History View
 * Adding and Customizing Users
 
@@ -234,7 +234,7 @@ Any changes made can be viewed in the "History" section.
 
 ## Ordering Primers
 
-### Ordering New primers
+### Ordering New Primers
 
 To make a new order, access the "Orders" page (shown below) by clicking on the shopping cart icon.
 
@@ -252,7 +252,7 @@ When ordering two primers simultaneously, common features are required first and
 
 ![ordertwoprimer](./ordertwoprimer.png)
 
-### Reordering primers
+### Reordering Primers
 
 To reorder a primer, you can move it directly from the library on the "Overview" page to the “Ordered” section of "Orders" page. On the Overview page select the primer by clicking on the checkbox on the left and then click on the “Move to ordered” shopping cart icon on the right. It should be noted that if less than 10 µL of a primer are available, a new order should be placed immediately.
 
