@@ -1,7 +1,8 @@
 version: 2
 
 
-configuration: mkdocs.yml
+mkdocs:
+  configuration: mkdocs.yml
 
 formats:
   - pdf
