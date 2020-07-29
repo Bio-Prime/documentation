@@ -104,7 +104,7 @@ Only the desired amount of primer data is shown, described in detail in the Sear
 
 To link primers (e. g. forward, reverse and a probe) select the primers by clicking on the checkboxes on the left and then click on the “Link” icon on the right. The same procedure can be done for unlinking primers, by clicking on “Unlink”.
 
-
+![link1](./link1.png)
 
 Details of each primer can be viewed by clicking on the bar with the primer.
 
