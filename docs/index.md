@@ -51,7 +51,7 @@ A Researcher / Lab Staff has access to primer data (view only) and history view.
 
 #### Administrator
 
-The Administrator has access to primer data (view only), history view and user view. They can export and also import data, add or remove primers, modify primer data, volume and state (formulation) and order new primers / reorder primers. They can see the users overview and add or remove users, modify their level of access and change their roles.
+The Administrator has access to primer data (view only), history view and user view. They can export and also import data, add or remove primers, modify primer data, volume and state (formulation) and order new primers / reorder primers. They can see the users overview and add or remove users, modify their level of access and change their roles (described in detail in “Adding and Customizing Users” section.
 
 ## System Functionality
 
@@ -232,13 +232,11 @@ To delete a primer, select it by checking off the box on the left of its name th
 
 Any changes made can be viewed in the "History" section.
 
-## Ordering New Primers
+## Ordering Primers
 
 To make a new order, access the "Orders" page (shown below) by clicking on the shopping cart icon.
 
 ![orders](./orders.png)
-
-It should be noted that if less than 10 µL of a primer are available, a new order should be placed immediately.
 
 To order a new primer, the user should click on the Add (+) sign on the top right, and choose between ordering one or two primers.
 
@@ -251,6 +249,10 @@ Similar to the procedure of adding a new primer, the required fields should be f
 When ordering two primers simultaneously, common features are required first and then specific for each primer.
 
 ![ordertwoprimer](./ordertwoprimer.png)
+
+To reorder a primer, you can move it directly from the library to the “Ordered” section of "Orders" page. On the Overview page select the primer by clicking on the checkbox on the left and then click on the “Move to ordered” shopping cart icon on the right. It should be noted that if less than 10 µL of a primer are available, a new order should be placed immediately.
+
+![movetoordered](./movetoordered.png)
 
 If a mistake has been made while putting in the data, the system sends you a warning message.
 
