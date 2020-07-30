@@ -85,7 +85,7 @@ After logging in, the user is presented with the Overview page, the main page of
 
 Icons on the left show (in a descending order):
 
-* Dashboard, the main page showing primer data
+* Overview, the main page showing primer data
 * Orders, where recent and pending orders can be viewed
 * History, which shows a timeline of all changes made by the users (view limited only to specific users, described in the User Access Control section)
 * Add primer / probe, a page for adding primers with no obligatory fields
@@ -100,13 +100,13 @@ The Administrator also has access to the "Manage Users" page, where they can add
 
 ![admin](./admin.png)
 
-Dashboard view shows general analysis data on top of the page, including the occupancy of refrigerators and the total number of primers.
+The Overview page view shows general analysis data on top of the page, including the occupancy of refrigerators and the total number of primers.
 
 Primers are presented in a list and are automatically sorted by their Generated name in a descending order. This order can be modified based on any trait (such as Sequence, Freezer, User etc.) by clicking on the title of the trait (described in detail in the Sorting Primer Data section).
 
 Only the desired amount of primer data is shown, described in detail in the Searching and Sorting Primer Data section.
 
-To link primers (e. g. forward, reverse and a probe) select the primers by clicking on the checkboxes on the left and then click on the “Link” icon on the right. The same procedure can be done for unlinking primers, by clicking on “Unlink”.
+To link primers (e. g. forward, reverse and a probe) select the primers by clicking on the checkboxes on the left and then click on the “Link” icon on the right. The same procedure can be done for unlinking primers, by clicking on “Unlink”. The page gets refreshed automatically.
 
 ![link1](./link1.png)
 
@@ -278,7 +278,7 @@ When an order has arrived, the primer can be moved to the primers repository by 
 
 ![MoveToPrimers](./MoveToPrimers.png)
 
-After submitting the data, the primer appears in the dashboard section.
+After submitting the data, the primer appears in the library on the “Overview” page.
 
 ## History View
 
