@@ -71,7 +71,7 @@ We divided the system functionality into specific sections:
 
 When you access the BioPrime website, the page first offers you the login options. All repository users need to log in before viewing or customizing data.
 
-![login_screen](./login_screen.JPG)
+![login](./login.png)
 
 New users and their assigned roles are created by the Administrator. Users are then notified by e-mail about their access grant. Personal or work e-mail can be used as the username and the password should be set by the users themselves.
 
