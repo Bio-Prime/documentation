@@ -73,15 +73,15 @@ When you access the BioPrime website, the page first offers you the login option
 
 ![login](./login.png)
 
-New users and their assigned roles are created by the Administrator. Users are then notified by e-mail about their access grant. Personal or work e-mail can be used as the username and the password should be set by the users themselves.
+New users and their assigned roles are created by the Administrator. Users are then notified by e-mail about their access grant, their username and password. Personal or work e-mail can be used as the username and the password can be changed by the users themselves.
 
 If the password has been forgotten, the Administrator can permit the option of creating a new password, change the role of the user or delete and add them with a new e-mail.
 
 ## Access to Primer Data Library
 
-After logging in, the user is presented with the Dashboard, the main page of the program.
+After logging in, the user is presented with the Overview page, the main page of the program.
 
-![menu1](./menu1.png)
+![overview](./overview.png)
 
 Icons on the left show (in a descending order):
 
@@ -91,6 +91,10 @@ Icons on the left show (in a descending order):
 * Add primer / probe, a page for adding primers with no obligatory fields
 
 ![menu2](./menu2.png)
+
+In the top right corner there’s a button for changing the theme, the link to specifications (“?” icon) and the user’s username next to the logout button.
+
+![overview2](./overview2.png)
 
 The Administrator also has access to the "Manage Users" page, where they can add / delete users and change their roles.
 
