@@ -158,11 +158,11 @@ When checking off the boxes, the user can also use the option of "select all" to
 
 ![viewcolumns](./viewcolumns.png)
 
-To export all primer data from the database, click on the download icon. To print everything click on the printer icon.
+To export all primer data from the database, click on the download icon. The data is exported in a .csv format. To print everything click on the printer icon.
 
 ![export1](./export1.png)
 
-To export specific primer data, select a primer first, select "Open data" and then click on the download icon.
+To export specific primer data, select a primer first, select "Open data" and then click on the download icon. The data is exported in a .csv format.
 
 ![export2](./export2.png)
 
