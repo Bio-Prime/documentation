@@ -87,7 +87,7 @@ Icons on the left show (in a descending order):
 
 * Overview, the main page showing primer data
 * Orders, where recent and pending orders can be viewed
-* Favourites, where the user can save their most used primers
+* Favourites, a page for storing the users' favourite primers
 * History, which shows a timeline of all changes made by the users (view limited only to specific users, described in the User Access Control section)
 * Add primer / probe, a page for adding primers with no obligatory fields
 
@@ -110,6 +110,10 @@ Only the desired amount of primer data is shown, described in detail in the Sear
 To link primers (e. g. forward, reverse and a probe) select the primers by clicking on the checkboxes on the left and then click on the “Link” icon on the right. The same procedure can be done for unlinking primers, by clicking on “Unlink”. The page gets refreshed automatically.
 
 ![link1](./link1.png)
+
+To add a primer to “Favourites”, select the primer by clicking on the checkboxes on the left first, then click on the “Favourites” icon on the right. The primer should appear in the “Favourites” page.
+
+![favorites](./favorites.png)
 
 Details of each primer can be viewed by clicking on the bar with the primer.
 
