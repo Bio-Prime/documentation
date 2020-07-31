@@ -23,7 +23,7 @@ Good documentation constitutes an essential part of the quality assurance system
 
 ### User Access Control
 
-A new user is created by the Administrator, who also provides their username and password, which can be changed by the user. New users can also log in with an already existing email. The Administrator sets the user's role and their level of access.
+A new user is created by the Administrator, who also provides their username and password, which can be changed if forgotten. New users can also log in with an already existing email. The Administrator sets the user's role and their level of access.
 
 Different users have different roles in the repository, which controls their access to information or modifying of data. The roles in an ascending order of access are:
 
@@ -87,6 +87,7 @@ Icons on the left show (in a descending order):
 
 * Overview, the main page showing primer data
 * Orders, where recent and pending orders can be viewed
+* Favourites, where the user can save their most used primers
 * History, which shows a timeline of all changes made by the users (view limited only to specific users, described in the User Access Control section)
 * Add primer / probe, a page for adding primers with no obligatory fields
 
@@ -279,6 +280,8 @@ When an order has arrived, the primer can be moved to the primers repository by 
 ![MoveToPrimers](./MoveToPrimers.png)
 
 After submitting the data, the primer appears in the library on the “Overview” page.
+
+Orders or wanted primers can be edited in the same way as primer data in the library, by clicking on the row with the primer and clicking on the edit icon (follow the instructions in the Editing Primer Data section).
 
 ## History View
 
