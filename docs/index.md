@@ -92,7 +92,7 @@ Icons on the left show (in a descending order):
 
 ![menu2](./menu2.png)
 
-In the top right corner there’s a button for changing the theme, the link to specifications (“?” icon) and the user’s username next to the logout button.
+In the top right corner there’s a button for changing the theme, the link to specifications (“?” icon) which can be exported and printed as a .pdf file, and the user’s username next to the logout button.
 
 ![overview2](./overview2.png)
 
@@ -198,11 +198,11 @@ When adding a new primer in this way, the user has to put in the obligatory data
 |  | Comment |
 |  | Analysis |
 
-![addoneprimernew](./addoneprimernew.png)
+![addoneprimernew](./addonenew.png)
 
 When putting in data for a pair of primers, common features are put in first and then specific features for each primer (shown in the picture).
 
-![addtwoprimernew](./addtwoprimernew.png)
+![addtwoprimernew](./addtwo.png)
 
 When adding a TaqProbe, extra options for putting in data open up:
 
@@ -302,7 +302,7 @@ To add a new user to the list, click on the Add (+) sign in the top right corner
 
 ![users1](./users1.png)
 
-When a new user is added, Full name, Username, Role, Work title and Password need to be defined.
+When a new user is added, Full name, Username, Role, Work title and Password need to be defined by the admin.
 
 ![users2](./users2.png)
 
