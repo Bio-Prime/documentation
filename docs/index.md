@@ -91,7 +91,7 @@ Icons on the left show (in a descending order):
 * History, which shows a timeline of all changes made by the users (view limited only to specific users, described in the User Access Control section)
 * Add primer / probe, a page for adding primers with no obligatory fields
 
-![menu2](./menu2.png)
+![overview3](./overview3.png)
 
 In the top right corner there’s a button for changing the theme, the link to specifications (“?” icon) which can be exported and printed as a .pdf file, and the user’s username next to the logout button.
 
