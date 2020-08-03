@@ -5,6 +5,10 @@
 
 ### First Introduction
 
+This document was created in the scope of the project “Vzpostavitev informacijskega sistema za vodenje knjižnice oligonukleotidnih začetnikov” as part of the program “Po kreativni poti do znanja” financed by the Ministry of education, science and sport of the Republic of Slovenia and the European Social Fund.
+
+![logos](./logos.png)
+
 This document describes the specifications of BioPrime, a computerized repository for keeping track of primer data. This is a system for organizing and managing primer data, keeping track of existing stock of primers available in the laboratory and their location of storage. It was designed to simplify the procedure of ordering primers and to keeping record of primer consumption. It also provides a better overview of research and analysis performed in a laboratory and can work as a time-saving tool.
 
 Good documentation constitutes an essential part of the quality assurance system and is crucial for operating in compliance with GMP requirements. This document provides a detailed description of specific functions of the repository, including instructions and procedures written in an instructional form. The document contains:
@@ -180,7 +184,9 @@ The “Add primer” option offers you to add one general primer (described in t
 
 ![addprimers](./addprimers.png)
 
-When adding a new primer in this way, the user has to put in the obligatory data (tagged with a * symbol) before the system lets you access the next page. This is a summary:
+To see an example of how the data for importing should look, click on Get sample.csv.
+
+When adding a new primer in this way, instead of the “Add one general” way, the user has to put in the obligatory data (tagged with a * symbol) before the system lets you access the next page. This is a summary:
 
 | Required Data | Optional Data |
 |-------|-------|
@@ -263,7 +269,7 @@ When ordering two primers simultaneously, common features are required first and
 
 ### Reordering Primers
 
-To reorder a primer, you can move it directly from the library on the "Overview" page to the “Ordered” section of "Orders" page. On the Overview page select the primer by clicking on the checkbox on the left and then click on the “Move to ordered” shopping cart icon on the right. It should be noted that if less than 10 µL of a primer are available, a new order should be placed immediately.
+To reorder a primer, you can move it directly from the library on the "Overview" page to the “Ordered” section of "Orders" page. On the Overview page select the primer by clicking on the checkbox on the left and then click on the “Move to wanted” shopping cart icon on the right. It should be noted that if less than 10 µL of a primer are available, a new order should be placed immediately.
 
 ![movetoordered](./movetoordered.png)
 
