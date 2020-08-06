@@ -5,6 +5,10 @@
 
 ### First Introduction
 
+This document was created in the scope of the project “Vzpostavitev informacijskega sistema za vodenje knjižnice oligonukleotidnih začetnikov” as part of the program “Po kreativni poti do znanja” financed by the Ministry of education, science and sport of the Republic of Slovenia and the European Social Fund.
+
+![logos](./logos.png)
+
 This document describes the specifications of BioPrime, a computerized repository for keeping track of primer data. This is a system for organizing and managing primer data, keeping track of existing stock of primers available in the laboratory and their location of storage. It was designed to simplify the procedure of ordering primers and to keeping record of primer consumption. It also provides a better overview of research and analysis performed in a laboratory and can work as a time-saving tool.
 
 Good documentation constitutes an essential part of the quality assurance system and is crucial for operating in compliance with GMP requirements. This document provides a detailed description of specific functions of the repository, including instructions and procedures written in an instructional form. The document contains:
@@ -23,7 +27,7 @@ Good documentation constitutes an essential part of the quality assurance system
 
 ### User Access Control
 
-A new user is created by the Administrator, who also provides their username and password, which can be changed by the user. New users can also log in with an already existing email. The Administrator sets the user's role and their level of access.
+A new user is created by the Administrator, who also provides their username and password, which can be changed if forgotten. New users can also log in with an already existing email. The Administrator sets the user's role and their level of access.
 
 Different users have different roles in the repository, which controls their access to information or modifying of data. The roles in an ascending order of access are:
 
@@ -51,7 +55,7 @@ A Researcher / Lab Staff has access to primer data (view only) and history view.
 
 #### Administrator
 
-The Administrator has access to primer data (view only), history view and user view. They can export and also import data, add or remove primers, modify primer data, volume and state (formulation) and order new primers / reorder primers. They can see the users overview and add or remove users, modify their level of access and change their roles.
+The Administrator has access to primer data (view only), history view and user view. They can export and also import data, add or remove primers, modify primer data, volume and state (formulation) and order new primers / reorder primers. They can see the users overview and add or remove users, modify their level of access and change their roles (described in detail in “Adding and Customizing Users” section.
 
 ## System Functionality
 
@@ -63,7 +67,7 @@ We divided the system functionality into specific sections:
 * Sorting Primer Data
 * Adding New Primers
 * Editing Primer Data
-* Ordering New Primers
+* Ordering Primers
 * History View
 * Adding and Customizing Users
 
@@ -71,40 +75,55 @@ We divided the system functionality into specific sections:
 
 When you access the BioPrime website, the page first offers you the login options. All repository users need to log in before viewing or customizing data.
 
-![login_screen](./login_screen.JPG)
+![login](./login.png)
 
-New users and their assigned roles are created by the Administrator. Users are then notified by e-mail about their access grant. Personal or work e-mail can be used as the username and the password should be set by the users themselves.
+New users and their assigned roles are created by the Administrator. Users are then notified by e-mail about their access grant, their username and password. Personal or work e-mail can be used as the username and the password can be changed by the users themselves.
 
-If the password has been forgotten, the Administrator can permit the option of creating a new password, change the role of the user or delete and add them with a new e-mail.
+### Changing your password
+
+After logging in for the first time with the password set by the Administrator, the user can change their password by clicking on their username in the top right corner and filling in the required fields.
+
+![password1](./password1.png)
+
+If the password has been forgotten, the Administrator has to delete the user and add them again via e-mail.
 
 ## Access to Primer Data Library
 
-After logging in, the user is presented with the Dashboard, the main page of the program.
+After logging in, the user is presented with the Overview page, the main page of the program.
 
-![menu1](./menu1.png)
+![overview](./overview.png)
 
 Icons on the left show (in a descending order):
 
-* Dashboard, the main page showing primer data
+* Overview, the main page showing primer data
 * Orders, where recent and pending orders can be viewed
+* Favourites, a page for storing the users' favourite primers
 * History, which shows a timeline of all changes made by the users (view limited only to specific users, described in the User Access Control section)
 * Add primer / probe, a page for adding primers with no obligatory fields
 
-![menu2](./menu2.png)
+![overview3](./overview3.png)
+
+In the top right corner there’s a button for changing the theme, the link to specifications (“?” icon) which can be exported and printed as a .pdf file, and the user’s username next to the logout button.
+
+![overview2](./overview2.png)
 
 The Administrator also has access to the "Manage Users" page, where they can add / delete users and change their roles.
 
 ![admin](./admin.png)
 
-Dashboard view shows general analysis data on top of the page, including the occupancy of refrigerators and the total number of primers.
+The Overview page view shows general analysis data on top of the page, including the occupancy of refrigerators and the total number of primers.
 
 Primers are presented in a list and are automatically sorted by their Generated name in a descending order. This order can be modified based on any trait (such as Sequence, Freezer, User etc.) by clicking on the title of the trait (described in detail in the Sorting Primer Data section).
 
 Only the desired amount of primer data is shown, described in detail in the Searching and Sorting Primer Data section.
 
-To link primers (e. g. forward, reverse and a probe) select the primers by clicking on the checkboxes on the left and then click on the “Link” icon on the right. The same procedure can be done for unlinking primers, by clicking on “Unlink”.
+To link primers (e. g. forward, reverse and a probe) select the primers by clicking on the checkboxes on the left and then click on the “Link” icon on the right. The same procedure can be done for unlinking primers, by clicking on “Unlink”. The page gets refreshed automatically.
 
 ![link1](./link1.png)
+
+To add a primer to “Favourites”, select the primer by clicking on the checkboxes on the left first, then click on the “Favourites” icon on the right. The primer should appear in the “Favourites” page.
+
+![favorites](./favorites.png)
 
 Details of each primer can be viewed by clicking on the bar with the primer.
 
@@ -149,11 +168,11 @@ When checking off the boxes, the user can also use the option of "select all" to
 
 ![viewcolumns](./viewcolumns.png)
 
-To export all primer data from the database, click on the download icon. To print everything click on the printer icon.
+To export all primer data from the database, click on the download icon. The data is exported in a .csv format. To print everything click on the printer icon.
 
 ![export1](./export1.png)
 
-To export specific primer data, select a primer first, select "Open data" and then click on the download icon.
+To export specific primer data, select a primer first, select "Open data" and then click on the download icon. The data is exported in a .csv format.
 
 ![export2](./export2.png)
 
@@ -171,7 +190,9 @@ The “Add primer” option offers you to add one general primer (described in t
 
 ![addprimers](./addprimers.png)
 
-When adding a new primer in this way, the user has to put in the obligatory data (tagged with a * symbol) before the system lets you access the next page. This is a summary:
+To see an example of how the data for importing should look, click on Get sample.csv.
+
+When adding a new primer in this way, instead of the “Add one general” way, the user has to put in the obligatory data (tagged with a * symbol) before the system lets you access the next page. This is a summary:
 
 | Required Data | Optional Data |
 |-------|-------|
@@ -194,11 +215,11 @@ When adding a new primer in this way, the user has to put in the obligatory data
 |  | Comment |
 |  | Analysis |
 
-![addoneprimernew](./addoneprimernew.png)
+![addoneprimernew](./addonenew.png)
 
 When putting in data for a pair of primers, common features are put in first and then specific features for each primer (shown in the picture).
 
-![addtwoprimernew](./addtwoprimernew.png)
+![addtwoprimernew](./addtwo.png)
 
 When adding a TaqProbe, extra options for putting in data open up:
 
@@ -232,13 +253,13 @@ To delete a primer, select it by checking off the box on the left of its name th
 
 Any changes made can be viewed in the "History" section.
 
-## Ordering New Primers
+## Ordering Primers
+
+### Ordering New Primers
 
 To make a new order, access the "Orders" page (shown below) by clicking on the shopping cart icon.
 
 ![orders](./orders.png)
-
-It should be noted that if less than 10 µL of a primer are available, a new order should be placed immediately.
 
 To order a new primer, the user should click on the Add (+) sign on the top right, and choose between ordering one or two primers.
 
@@ -251,6 +272,12 @@ Similar to the procedure of adding a new primer, the required fields should be f
 When ordering two primers simultaneously, common features are required first and then specific for each primer.
 
 ![ordertwoprimer](./ordertwoprimer.png)
+
+### Reordering Primers
+
+To reorder a primer, you can move it directly from the library on the "Overview" page to the “Ordered” section of "Orders" page. On the Overview page select the primer by clicking on the checkbox on the left and then click on the “Move to wanted” shopping cart icon on the right. It should be noted that if less than 10 µL of a primer are available, a new order should be placed immediately.
+
+![movetoordered](./movetoordered.png)
 
 If a mistake has been made while putting in the data, the system sends you a warning message.
 
@@ -268,7 +295,9 @@ When an order has arrived, the primer can be moved to the primers repository by 
 
 ![MoveToPrimers](./MoveToPrimers.png)
 
-After submitting the data, the primer appears in the dashboard section.
+After submitting the data, the primer appears in the library on the “Overview” page.
+
+Orders or wanted primers can be edited in the same way as primer data in the library, by clicking on the row with the primer and clicking on the edit icon (follow the instructions in the Editing Primer Data section).
 
 ## History View
 
@@ -292,7 +321,7 @@ To add a new user to the list, click on the Add (+) sign in the top right corner
 
 ![users1](./users1.png)
 
-When a new user is added, Full name, Username, Role, Work title and Password need to be defined.
+When a new user is added, Full name, Username, Role, Work title and Password need to be defined by the admin.
 
 ![users2](./users2.png)
 
