@@ -85,7 +85,7 @@ After logging in for the first time with the password set by the Administrator, 
 
 ![password1](./password1.png)
 
-If the password has been forgotten, the Administrator has to delete the user and add them via e-mail.
+If the password has been forgotten, the Administrator has to delete the user and add them again via e-mail.
 
 ## Access to Primer Data Library
 
