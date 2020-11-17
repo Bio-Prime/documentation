@@ -1,4 +1,4 @@
-# Installation for BioPrime
+# Installation for OligoPrime
 
 ## Recommended specifications
 
