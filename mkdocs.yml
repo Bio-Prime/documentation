@@ -1,4 +1,4 @@
-site_name: BioPrime docs
+site_name: OligoPrime docs
 pages:
     - Home: 'index.md'
     - Installation: 'installation.md'
