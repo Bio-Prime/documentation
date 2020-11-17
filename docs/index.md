@@ -1,5 +1,5 @@
-﻿
-# Specifications of BioPrime
+
+# Specifications of OligoPrime
 
 ## A Repository for Keeping Record of Primers in a Biobank
 
@@ -9,7 +9,7 @@ This document was created in the scope of the project “Vzpostavitev informacij
 
 ![logos](./logos.png)
 
-This document describes the specifications of BioPrime, a computerized repository for keeping track of primer data. This is a system for organizing and managing primer data, keeping track of existing stock of primers available in the laboratory and their location of storage. It was designed to simplify the procedure of ordering primers and to keeping record of primer consumption. It also provides a better overview of research and analysis performed in a laboratory and can work as a time-saving tool.
+This document describes the specifications of OligoPrime, a computerized repository for keeping track of primer data. This is a system for organizing and managing primer data, keeping track of existing stock of primers available in the laboratory and their location of storage. It was designed to simplify the procedure of ordering primers and to keeping record of primer consumption. It also provides a better overview of research and analysis performed in a laboratory and can work as a time-saving tool.
 
 Good documentation constitutes an essential part of the quality assurance system and is crucial for operating in compliance with GMP requirements. This document provides a detailed description of specific functions of the repository, including instructions and procedures written in an instructional form. The document contains:
 
@@ -73,7 +73,7 @@ We divided the system functionality into specific sections:
 
 ## Login Page
 
-When you access the BioPrime website, the page first offers you the login options. All repository users need to log in before viewing or customizing data.
+When you access the OligoPrime website, the page first offers you the login options. All repository users need to log in before viewing or customizing data.
 
 ![login](./login.png)
 
